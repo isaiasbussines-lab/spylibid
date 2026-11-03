@@ -84,7 +84,7 @@ footer { font-size: 12px; color: var(--muted); }
         (N.cta ? '<p class="cta"><b>CTA:</b> ' + e(N.cta) + '</p>' : '') + (c.cuidado ? '<p class="cuidado">Não copiar: ' + e(c.cuidado) + '</p>' : '') + '</div></article>';
     }).join('') + '</section>');
   }
-  if (D.mudou && D.mudou.length) o.push('<section class="mudou"><h2>Mudou nas últimas 48h</h2>' + list('ul', D.mudou.slice(0, 3)) + '</section>');
+  if (D.mudou && D.mudou.length) o.push('<section class="mudou"><h2>Mudou nas últimas 24h</h2>' + list('ul', D.mudou.slice(0, 3)) + '</section>');
   if (D.arquivo && D.arquivo.length) o.push('<details><summary>Relatórios anteriores</summary><ul>' + D.arquivo.slice(0, 30).map(function (a) {
     return '<li>' + (a.href ? '<a href="' + e(a.href) + '">' + e(a.data) + '</a>' : e(a.data)) + (a.resumo ? ' — ' + e(a.resumo) : '') + '</li>'; }).join('') + '</ul></details>');
   if (D.rodape) o.push('<footer>' + e(D.rodape) + '</footer>');

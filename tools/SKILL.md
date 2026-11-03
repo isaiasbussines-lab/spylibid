@@ -11,7 +11,7 @@ Roda do começo ao fim **sem perguntar nada a ninguém**. Nunca use AskUserQuest
 1. **Manchete**: o que gravar hoje, numa frase.
 2. **Padrão do dia**: 1–2 frases com o que os escalados têm em comum (formato de abertura, ângulo, oferta).
 3. **3 criativos escalados pra modelar**, cada um com link da Biblioteca, números que provam que escala, como o deles funciona (hook transcrito + estrutura) e a **nossa versão pronta** (hook + roteiro curto + CTA).
-4. **Mudou nas últimas 48h**: no máximo 3 linhas, só o que muda o que ele vai produzir.
+4. **Mudou nas últimas 24h**: no máximo 3 linhas, só o que muda o que ele vai produzir.
 
 Proibido no relatório: placar, panorama, tendências genéricas, lista de novos players, estáticos, alertas longos, metodologia. Nada que repita o relatório de ontem. Se não mudou, não entra. Português do Brasil, informal e direto ("criativo", "ângulo", "hook").
 
@@ -25,7 +25,7 @@ Proibido no relatório: placar, panorama, tendências genéricas, lista de novos
 
 ## Passo 0 — preparar
 
-1. `mcp__claude_ai__current_time` → `HOJE` (AAAA-MM-DD, America/Sao_Paulo), `ONTEM`, `LIM48` = HOJE − 2 dias.
+1. `mcp__claude_ai__current_time` → `HOJE` (AAAA-MM-DD, America/Sao_Paulo), `ONTEM` (as "últimas 24h" = anúncios com início em ONTEM ou HOJE).
 2. `ToolSearch` `select:ArtifactData` e `ToolSearch` query `mcp__remote-devices__Claude_Browser__` (max_results 64). Se só existir `enable__mcp__remote-devices__Claude_Browser`, chame-o.
 3. `Artifact` read no HUB com `paths` = os arquivos da skill acima (guarde onde salvou: `SK`).
 4. Em segundo plano (Bash `run_in_background`): `bash $SK/skill/setup_whisper.sh` (instala o transcritor, ~2 min).
@@ -39,23 +39,23 @@ Se o navegador não responder: `execucoes/{HOJE}` = `"falhou: navegador offline"
 URL: `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&media_type=all&search_type={tipo}&q={q}&sort_data[mode]=total_impressions&sort_data[direction]=desc`
 (com `page_id`: `search_type=page&view_all_page_id={page_id}`, `QI = 9`).
 
-Para cada concorrente e cada busca, num `browser_batch`: `navigate` + `javascript_tool` com `const SLUG = "<slug>", QI = <n>, TODAY = "<HOJE>";` seguido do `extract.js` inteiro. O extrator devolve `totalNum`, `novos[]`, `iniciados48h`, `paginasNovas`, `top[]` (criativos que mais repetem, cada um com `id`, `idVersoes`, `idInicio`, `idVideo`, `versoesTotal`) e **`escalados[]`** (anúncios com 3+ versões, `{id, page, start, versoes, video, copy}`, já sem duplicar grupos).
+Para cada concorrente e cada busca, num `browser_batch`: `navigate` + `javascript_tool` com `const SLUG = "<slug>", QI = <n>, TODAY = "<HOJE>";` seguido do `extract.js` inteiro. O extrator devolve `totalNum`, `novos[]`, `iniciados24h`, `paginasNovas`, `top[]` (criativos que mais repetem, cada um com `id`, `idVersoes`, `idInicio`, `idVideo`, `versoesTotal`) e **`escalados[]`** (anúncios com 3+ versões, `{id, page, start, versoes, video, copy}`, já sem duplicar grupos).
 - Resultado grande vem em arquivo: leia com python/jq.
 - Página sem cards: tente de novo 1 vez; senão, "sem leitura hoje".
 - Ignore páginas/termos de `config/geral.nossos`. Para buscas ruidosas (`concorrentes/{slug}.obs`), só páginas conhecidas ou nome do produto na copy.
 - Varreduras de `config/geral.varreduras` com `SLUG = "_varredura-<i>"`. Página fora da lista que bate `regra_novo_player` → cria `concorrentes/{novo}` com `status:"novo"`.
 - Teto ~22 buscas. Escalando/testando/novo: todo dia. Parado/estável há 7+ dias: dia sim, dia não.
-- Se o Facebook bloquear `eval`/apagar o localStorage, siga: "novos" = `iniciados48h` (data de início ≥ LIM48).
+- Se o Facebook bloquear `eval`/apagar o localStorage, siga: "novos" = `iniciados24h` (data de início ≥ ONTEM).
 
 ## Passo 2 — memória (banco, não vai pro relatório)
 
-Para cada concorrente: `ativos` (maior `totalNum`), `delta_ativos` vs último snapshot, `novos48h` (soma de `iniciados48h`), **status** (`novo` ≤7 dias no radar · `escalando` novos48h ≥ 5 ou Δ ≥ +10% · `testando` 1–4 · `caindo` Δ ≤ −15% · `parado` 0 novos em 14 dias · `estavel`).
-Grave em lote (`batch`): `snapshots/{HOJE}_{slug}` (`data, slug, ativos, novos48h, paginas, paginas_novas[], status, escalados[]` (até 5 `{id,versoes,start,video}`), `copies_top[]`) e, em `concorrentes/{slug}`, `status`, `ultimo_snapshot`, `paginas_conhecidas` e **uma** linha nova em `memoria` (`"AAAA-MM-DD: <o que mudou>"` ou `"sem mudança (N ativos)"`; acima de 40 linhas, resuma as 20 mais antigas em `memoria_resumo`).
+Para cada concorrente: `ativos` (maior `totalNum`), `delta_ativos` vs último snapshot, `novos24h` (soma de `iniciados24h`), **status** (`novo` ≤7 dias no radar · `escalando` novos24h ≥ 3 ou Δ ≥ +10% · `testando` 1–2 · `caindo` Δ ≤ −15% · `parado` 0 novos em 14 dias · `estavel`).
+Grave em lote (`batch`): `snapshots/{HOJE}_{slug}` (`data, slug, ativos, novos24h, paginas, paginas_novas[], status, escalados[]` (até 5 `{id,versoes,start,video}`), `copies_top[]`) e, em `concorrentes/{slug}`, `status`, `ultimo_snapshot`, `paginas_conhecidas` e **uma** linha nova em `memoria` (`"AAAA-MM-DD: <o que mudou>"` ou `"sem mudança (N ativos)"`; acima de 40 linhas, resuma as 20 mais antigas em `memoria_resumo`).
 
 ## Passo 3 — escolher os 3 criativos do dia
 
 1. **Candidatos**: junte os `escalados[]` e os `top[]` de todos os concorrentes e varreduras. Para cada candidato: `versoes` (do próprio anúncio), `dias` = HOJE − `start`, páginas onde o mesmo criativo/copy aparece, e se a mesma copy está em lote novo.
-2. **Pontuação**: `versoes × 2 + min(dias, 60) + 10 × (páginas − 1) + 15 se repetiu em lote das últimas 48h`. Validado = pelo menos um: 10+ versões, 21+ dias no ar, mesma copy em 3+ páginas.
+2. **Pontuação**: `versoes × 2 + min(dias, 60) + 10 × (páginas − 1) + 15 se repetiu em lote das últimas 24h`. Validado = pelo menos um: 10+ versões, 21+ dias no ar, mesma copy em 3+ páginas.
 3. **Regras de escolha**:
    - Só validados. No máximo **1 por marca**. Se der, pelo menos **1 curto (≤ 90 s)** e formatos diferentes entre si (UGC, VSL, talking head, estático…).
    - **Não repetir**: pule IDs de `config/geral.mostrados` dos últimos 7 dias. Exceção: se ganhou +10 versões desde que foi mostrado, pode voltar com `"repetido": "voltou: +N versões"`.
@@ -72,7 +72,7 @@ Grave em lote (`batch`): `snapshots/{HOJE}_{slug}` (`data, slug, ativos, novos48
    - `nossa_versao` = a mesma espinha no universo LibidLizze: gota sublingual, "apagão hormonal" (os 3 hormônios caem juntos, tomada puxada), 13x mais que cápsula, aviso de falsificado no Mercado Livre/Shopee, especialista **Amanda** no WhatsApp, pague na entrega. Personagens: Carla (coroa radiante), Sônia (cliente), cliente fitness, Amanda. Copy solta e agressiva, sempre na 2ª pessoa (você/o teu). Hook pronto pra gravar + 3–5 linhas de roteiro com tempo + CTA.
    - `cuidado` = o que **não** copiar: "Dra."/jaleco/médico falso, famoso ou rosto de famoso, print de mensagem de pessoa real, promessa com prazo ("em 2 semanas"), "cura", "sem contraindicação".
 6. **Padrão do dia**: o que 2 dos 3 (ou mais) têm em comum. **Manchete**: "Grave hoje: …" com o padrão em linguagem de produção.
-7. **Mudou nas últimas 48h**: até 3 linhas, só fatos que mudam o que produzir (ângulo que cresceu, formato que dobrou, método de teste, oferta nova). Nada que já esteja em `relatorios/{ONTEM}.mudou`.
+7. **Mudou nas últimas 24h**: até 3 linhas, só fatos que mudam o que produzir (ângulo que cresceu, formato que dobrou, método de teste, oferta nova). Nada que já esteja em `relatorios/{ONTEM}.mudou`.
 
 ## Passo 4 — montar e publicar
 

@@ -54,13 +54,13 @@ await (async () => {
   const prevRun = runs.length ? runs[runs.length - 1] : null;
   const knownPages = new Set(mem.pages || []);
   const fresh = !prevRun;
-  const d48 = new Date(TODAY + 'T12:00:00'); d48.setDate(d48.getDate() - 2);
-  const lim48 = d48.toISOString().slice(0, 10);
+  const d24 = new Date(TODAY + 'T12:00:00'); d24.setDate(d24.getDate() - 1);
+  const lim24 = d24.toISOString().slice(0, 10); // últimas 24h = começou ontem ou hoje
   for (const a of ads) {
     if (!ids[a.id]) ids[a.id] = { s: a.start, f: TODAY, l: TODAY, p: a.page };
     else ids[a.id].l = TODAY;
   }
-  const isNew = (a) => (fresh ? a.start >= lim48 : ids[a.id].f === TODAY);
+  const isNew = (a) => (fresh ? a.start >= lim24 : ids[a.id].f === TODAY);
   const novos = ads.filter(isNew);
   const completo = exhausted || (totalNum > 0 && ads.length >= totalNum);
   const sumidos = prevRun ? Object.entries(ids).filter(([, v]) => v.l === prevRun).map(([k, v]) => ({ id: k, page: v.p, start: v.s })) : [];
@@ -99,8 +99,8 @@ await (async () => {
   const ultimos10 = Object.fromEntries(Object.entries(inicio).sort().slice(-10));
   return {
     slug: SLUG, qi: QI, hoje: TODAY, total: totalTxt, totalNum, extraidos: ads.length, completo,
-    memoria: fresh ? 'primeira leitura (novos = iniciados nas últimas 48h)' : `comparado com ${prevRun}`,
-    novosCount: novos.length, iniciados48h: ads.filter((a) => a.start >= lim48).length,
+    memoria: fresh ? 'primeira leitura (novos = iniciados nas últimas 24h)' : `comparado com ${prevRun}`,
+    novosCount: novos.length, iniciados24h: ads.filter((a) => a.start >= lim24).length,
     sumidosCount: sumidos.length, sumidosConfiavel: completo,
     paginas: count(ads, (a) => a.page), paginasNovas, pageIds,
     funil: count(ads, (a) => a.funil), formato: count(ads, (a) => (a.video ? (a.video > 180 ? 'video_longo' : 'video') : 'imagem')),
