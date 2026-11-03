@@ -17,9 +17,9 @@ Proibido no relatório: placar, panorama, tendências genéricas, lista de novos
 
 ## Peças fixas
 
-- **HUB** (memória + arquivos da skill): `https://claude.ai/artifact/XzUinAysMH9S3HyZqo13P8`
+- **HUB** (o painel do Semffoca + memória no banco + arquivos da skill): `https://claude.ai/artifact/XzUinAysMH9S3HyZqo13P8`. A página do HUB é o dashboard: **nunca publique por cima dela**. Só leia arquivos (`Artifact` read com `paths`) e grave no banco (`ArtifactData`).
   - Arquivos: `skill/extract.js`, `skill/video_probe.js`, `skill/decode_probe.py`, `skill/setup_whisper.sh`, `skill/entrega.js`, `skill/template.html`, `skill/build_report.py`, `skill/config.json`.
-  - Banco (`ArtifactData`, `url` = HUB): `config/geral` (varreduras, `nossos`, `regra_novo_player`, `telegram.chat_id`, `mostrados`), `concorrentes/{slug}`, `snapshots/{AAAA-MM-DD}_{slug}`, `relatorios/{AAAA-MM-DD}`, `execucoes/{AAAA-MM-DD}`.
+  - Banco (`ArtifactData`, `url` = HUB): `config/geral` (varreduras, `nossos`, `regra_novo_player`, `telegram.chat_id`, `mostrados`), `produtos/libidlizze` (cérebro do Agente de Copy: avatares, ritmos, catálogo de sintomas; só leitura pra rotina), `concorrentes/{slug}`, `snapshots/{AAAA-MM-DD}_{slug}`, `criativos/{id}`, `relatorios/{AAAA-MM-DD}`, `execucoes/{AAAA-MM-DD}`. A coleção `modelagens` é do Semffoca: a rotina nunca escreve nela.
 - **Site**: `https://isaiasbussines-lab.github.io/spylibid/` (repo `isaiasbussines-lab/spylibid`). O modelo do site é lido de `https://raw.githubusercontent.com/isaiasbussines-lab/spylibid/main/tools/template.html`.
 - **Tokens** (`TELEGRAM_TOKEN`, e `GITHUB_TOKEN` se existir) vêm no texto da tarefa agendada. Só aparecem dentro do `javascript_tool` da entrega. Nunca grave em banco, arquivo, relatório ou URL.
 
@@ -92,8 +92,11 @@ JSON `relatorio-{HOJE}.json` (schema v2, é o que o `template.html` lê):
 ```
 Números reais, nada arredondado pra cima, nenhum anúncio inventado. Confira que o JSON abre com `json.load` e que os 3 `link` têm IDs reais lidos hoje.
 
-1. **HUB**: `python3 $SK/skill/build_report.py $SK/skill/template.html relatorio-{HOJE}.json index.html` → `Artifact` publish (`url` = HUB, `file_path` = index.html, `files` = `{"reports/{HOJE}.json": "<json>"}`). Sem `icon` nem `capabilities`.
-2. **Banco**: `relatorios/{HOJE}` = `{data, manchete, ids: [3 IDs], titulos: [3], mudou: [...], href: "reports/{HOJE}.html"}`; em `config/geral.mostrados` acrescente `{id, data: HOJE, versoes}` dos 3 e remova os com mais de 14 dias (update com `if_version`).
+1. **NÃO publique nada no HUB com a ferramenta Artifact.** O HUB agora é o painel (dashboard) do Semffoca: um publish de `index.html` apaga o painel. O painel lê tudo do banco.
+2. **Banco** (um `batch`):
+   - `relatorios/{HOJE}` = `{data: HOJE, manchete, ids: [3 IDs], titulos: [3], mudou: [...], href: "reports/{HOJE}.html", relatorio: <o JSON v2 inteiro>}`. É o campo `relatorio` que a aba Hoje do painel mostra.
+   - `criativos/{id}` para os 3 do dia **e** até mais 7 escalados validados lidos hoje (os de maior pontuação). Campos: `projeto: "libidlizze"`, `id`, `concorrente` (slug), `marca`, `pagina`, `link` (`https://www.facebook.com/ads/library/?id=<id>`), `titulo` (2 a 6 palavras), `formato` (UGC curto | Talking head | Depoimento | Montagem de rostos | Sanduíche UGC | VSL | Estático), `ritmo` (id: `ugc` | `storytelling` | `dores-ocultas` | `cientifico` | `depoimento` | `pergunta`), `quem_fala` (cliente | especialista | "médica" | famoso | avatar de IA…), `depoimento` (bool), `cientifico` (bool: explica mecanismo, anatomia ou ingrediente), `oferta`, `pagamento` (na entrega | no site | não diz), `funil` (WhatsApp | site), `duracao_s`, `inicio` (AAAA-MM-DD), `versoes`, `paginas`, `hook` (transcrito), `estrutura` (3–5 blocos com tempo), `sintomas` (nomes exatos do catálogo `produtos/libidlizze.sintomas` que o vídeo cita), `copy`, `obs`, `visto_em` (lista de datas, acrescente HOJE), `atualizado`. Se o doc já existe, `update` só `versoes`, `paginas`, `visto_em` e `atualizado` (com `if_version`).
+   - Em `config/geral.mostrados` acrescente `{id, data: HOJE, versoes}` dos 3 e remova os com mais de 14 dias (update com `if_version`).
 3. **Site + Telegram (pelo navegador)**: `navigate` a aba para `https://api.telegram.org/robots.txt` e rode `javascript_tool` com:
    ```
    const D = <JSON do relatório>, HOJE = "<HOJE>";
