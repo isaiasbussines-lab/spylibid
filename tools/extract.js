@@ -72,15 +72,26 @@ await (async () => {
 
   // ---- resumo ----
   const count = (arr, f) => arr.reduce((o, a) => { const k = f(a); o[k] = (o[k] || 0) + 1; return o; }, {});
+  // vários cards podem mostrar o MESMO grupo ("N anúncios usam esse criativo"): mesmo nº de versões + mesma duração + mesma copy = 1 grupo só
+  const grupoKey = (a) => (a.variants > 1 ? `${a.variants}|${a.video}|${a.copy.slice(0, 120).toLowerCase()}` : `id:${a.id}`);
+  const somaVersoes = (lista) => { const m = new Map(); for (const a of lista) m.set(grupoKey(a), a.variants); return [...m.values()].reduce((t, v) => t + v, 0); };
   const groups = {};
   for (const a of ads) {
     const k = a.copy.slice(0, 120).toLowerCase();
     const g = groups[k] = groups[k] || { n: 0, pages: new Set(), durs: new Set(), first: a.start, last: a.start, funil: a.funil, dom: a.dom, head: a.head, entrega: a.entrega, copy: a.copy.slice(0, COPY), maxVar: 1 };
-    g.n++; g.pages.add(a.page); if (a.video) g.durs.add(a.video); g.maxVar = Math.max(g.maxVar, a.variants);
+    g.n++; g.pages.add(a.page); if (a.video) g.durs.add(a.video);
+    if (!g.best || a.variants > g.best.variants || (a.variants === g.best.variants && a.start < g.best.start)) g.best = a;
+    g.maxVar = Math.max(g.maxVar, a.variants);
     if (a.start < g.first) g.first = a.start; if (a.start > g.last) g.last = a.start;
   }
   const top = Object.values(groups).sort((x, y) => y.n - x.n).slice(0, TOP)
-    .map((g) => ({ ...g, pages: [...g.pages].slice(0, 4), durs: [...g.durs].sort((x, y) => x - y).slice(0, 6) }));
+    .map((g) => { const { best, ...r } = g; return { ...r, pages: [...g.pages].slice(0, 4), durs: [...g.durs].sort((x, y) => x - y).slice(0, 6),
+      id: best.id, idVersoes: best.variants, idInicio: best.start, idVideo: best.video, idPagina: best.page,
+      versoesTotal: somaVersoes(ads.filter((a) => a.copy.slice(0, 120).toLowerCase() === r.copy.slice(0, 120).toLowerCase())) }; });
+  // candidatos a "escalado": o anúncio de cada criativo com mais versões (inclui os que não estão no top por repetição de copy)
+  const vistos = new Set();
+  const escalados = ads.filter((a) => a.variants >= 3).filter((a) => { const k = grupoKey(a); if (vistos.has(k)) return false; vistos.add(k); return true; }).sort((x, y) => y.variants - x.variants || (x.start < y.start ? -1 : 1)).slice(0, 8)
+    .map((a) => ({ id: a.id, page: a.page, start: a.start, versoes: a.variants, video: a.video, funil: a.funil, entrega: a.entrega, copy: a.copy.slice(0, 160) }));
   const names = new Set(pagesNow);
   const pageIds = {};
   document.querySelectorAll('a[href*="facebook.com/"]').forEach((a) => { const t = (a.innerText || '').trim(); const m = a.href.match(/facebook\.com\/([^/?#]+)/); if (t && names.has(t) && m && !pageIds[t]) pageIds[t] = m[1]; });
@@ -96,6 +107,6 @@ await (async () => {
     entrega: ads.filter((a) => a.entrega).length, inicioPorDia: ultimos10, criativosUnicos: Object.keys(groups).length,
     novos: novos.slice(0, MAX_NEW).map((a) => ({ id: a.id, page: a.page, start: a.start, video: a.video, funil: a.funil, entrega: a.entrega, head: a.head, copy: a.copy.slice(0, COPY) })),
     sumidos: sumidos.slice(0, 10),
-    top,
+    top, escalados,
   };
 })();

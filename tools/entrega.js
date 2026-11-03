@@ -49,7 +49,10 @@ await (async () => {
     const base = `https://api.telegram.org/bot${TG_TOKEN}`;
     const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const linhas = (D.modelar || []).map((c, i) => `${i + 1}. <b>${esc(c.titulo)}</b> · ${esc(c.marca)}\n${esc(c.formato)} · ${esc(c.numeros)}\n🎯 <i>${esc((c.nossa_versao || {}).hook)}</i>\n<a href="${esc(c.link)}">ver na Biblioteca</a>`).join('\n\n');
-    const txt = `<b>🕵️ Spy Libid · ${esc(D.data)}</b>\n<b>${esc(D.manchete)}</b>\n\n${linhas}\n\n🌐 <a href="${SITE}">Abrir o relatório no site</a>`;
+    const gh = out.github ? Object.values(out.github) : [];
+    const siteOk = gh.length > 0 && gh.every((s) => s === 200 || s === 201);
+    const rodape = siteOk ? `🌐 <a href="${SITE}">Abrir o relatório no site</a>` : '📎 O site não foi atualizado hoje: o relatório completo está no arquivo abaixo.';
+    const txt = `<b>🕵️ Spy Libid · ${esc(D.data)}</b>\n<b>${esc(D.manchete)}</b>\n\n${linhas}\n\n${rodape}`;
     const m = await (await fetch(`${base}/sendMessage`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: TG_CHAT, text: txt.slice(0, 4000), parse_mode: 'HTML', disable_web_page_preview: true }) })).json();
     const fd = new FormData(); fd.append('chat_id', TG_CHAT); fd.append('caption', `Spy Libid ${D.data}: abre no navegador`);
     fd.append('document', new Blob([htmlIndex], { type: 'text/html' }), `SpyLibid-${HOJE}.html`);

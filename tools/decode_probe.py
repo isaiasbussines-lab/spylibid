@@ -41,28 +41,41 @@ def main():
     if not partes:
         return
     ks = sorted(partes)
-    raw = b''.join(partes[k] for k in range(ks[-1] + 1) if k in partes)
-    open(nome + '.ulaw', 'wb').write(raw)
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'mulaw', '-ar', '8000', '-ac', '1',
-                    '-i', nome + '.ulaw', '-ar', '16000', nome + '.wav'], check=True)
-    print('áudio:', nome + '.wav', round(len(raw) / 8000, 1), 's (trechos', ks, ')')
+    # trechos seguidos viram um áudio só; trechos soltos (ex.: o fim do vídeo) são transcritos à parte, com o tempo real
+    blocos, atual = [], [ks[0]]
+    for k in ks[1:]:
+        if k == atual[-1] + 1: atual.append(k)
+        else: blocos.append(atual); atual = [k]
+    blocos.append(atual)
     try:
         import numpy as np
         from faster_whisper import WhisperModel
+        ok = os.path.exists(os.path.join(WHISPER_DIR, 'model.bin'))
     except ImportError:
-        print('sem faster-whisper: rode setup_whisper.sh'); return
-    if not os.path.exists(os.path.join(WHISPER_DIR, 'model.bin')):
-        print('modelo não encontrado em', WHISPER_DIR, '- rode setup_whisper.sh'); return
-    w = wave.open(nome + '.wav')
-    a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
-    m = WhisperModel(WHISPER_DIR, device='cpu', compute_type='int8', cpu_threads=os.cpu_count() or 2)
-    segs, _ = m.transcribe(a, language='pt', beam_size=5,
-                           initial_prompt='Anúncio sobre menopausa, libido, calorão, secura, WhatsApp.')
-    with open(nome + '.txt', 'w') as out:
-        for s in segs:
-            out.write(f'[{s.start:5.1f}-{s.end:5.1f}] {s.text.strip()}\n')
-    print('transcrição:', nome + '.txt')
-    print(open(nome + '.txt').read())
+        ok = False
+    if not ok:
+        print('transcritor indisponível: rode setup_whisper.sh (ou confira WHISPER_DIR)')
+    m = WhisperModel(WHISPER_DIR, device='cpu', compute_type='int8', cpu_threads=os.cpu_count() or 2) if ok else None
+    linhas = []
+    for b in blocos:
+        tag = f'{nome}_{b[0]}'
+        raw = b''.join(partes[k] for k in b)
+        open(tag + '.ulaw', 'wb').write(raw)
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'mulaw', '-ar', '8000', '-ac', '1',
+                        '-i', tag + '.ulaw', '-ar', '16000', tag + '.wav'], check=True)
+        print('áudio:', tag + '.wav', f'{b[0] * 23}s–{b[0] * 23 + len(raw) / 8000:.0f}s')
+        if not m:
+            continue
+        w = wave.open(tag + '.wav')
+        a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+        segs, _ = m.transcribe(a, language='pt', beam_size=5,
+                               initial_prompt='Anúncio sobre menopausa, libido, calorão, secura, WhatsApp.')
+        off = b[0] * 23
+        linhas += [f'[{s.start + off:5.1f}-{s.end + off:5.1f}] {s.text.strip()}' for s in segs]
+    if linhas:
+        open(nome + '.txt', 'w').write('\n'.join(linhas) + '\n')
+        print('transcrição:', nome + '.txt')
+        print('\n'.join(linhas))
 
 
 if __name__ == '__main__':
