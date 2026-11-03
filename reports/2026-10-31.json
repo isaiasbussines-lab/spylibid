@@ -1,0 +1,613 @@
+{
+ "data": "31/10/2026",
+ "gerado_em": "31/10/2026 07:05",
+ "titulo": "MenoCare abre 13 VSLs longas na persona masculina, Libidiflora perde metade dos anúncios e entra o FloraBe",
+ "linha_fina": "A rede MenoCare/Libidiflora segue a que mais escala (24 anúncios novos em 48h), mas o lote de 24 VSLs da Libidiflora sumiu. Femme+ continua forte com 22 novos e o advertorial em 1ª pessoa virou moda: Radiancy dobrou pra 48 e o FloraBe chegou com ~41.",
+ "resumo": [
+  "MenoCare escalou de novo: 13 VSLs longas (3:41, 8:38 e 9:55) subiram hoje na página Vinicius Passos, testando 'mulher 40+' contra 'mulher 50+', mais 9 anúncios novos na busca e 2 estáticos 'pague somente na entrega' numa página nova (Patricia Santos).",
+  "Libidiflora caiu de ~87 pra ~43 ativos: o lote de 24 VSLs de 29/10 na Dr Patrícia Almeida saiu do ar. Mas a copy 'VOLTE A SE SENTIR DESEJADA' ganhou anúncio novo hoje, então a oferta segue rodando.",
+  "Femme+ subiu 22 anúncios em 48h nas páginas Camila Calegari: vídeos-reação 'Oha essa dica INCRÍVEL' (42s a 3 min) e o novo '🚨 SOFRENDO COM MENOPAUSA? VEJA O VÍDEO ATÉ O FINAL' (2:21, 3 versões).",
+  "Mais validado do dia: o criativo do Composto Meno ('Tudo parece bem por fora…') roda em 84 anúncios desde 10/08, com vídeos de só 7 a 14s. E o estático 'PAGUE SOMENTE NA ENTREGA' já está em 4 páginas há 70 dias.",
+  "Novo player: FloraBe (probiótico em cápsula pra candidíase/vaginose, página Laura Nascimento, site useharmonya), com ~41 advertoriais, 26 deles de 29–30/10. Libidfem segue sem nenhum anúncio pelo 2º dia."
+ ],
+ "placar": [
+  {
+   "nome": "MenoCare",
+   "produto": "MenoCare (rede Helena + Vinicius Passos)",
+   "status": "escalando",
+   "ativos": "~100",
+   "delta_ativos": -50,
+   "novos48h": 24,
+   "funil": "WhatsApp + pague na entrega",
+   "formato": "estático + vídeo 68–89s; VSL longa 3:41–9:55 na persona masculina"
+  },
+  {
+   "nome": "Femme+",
+   "produto": "Femme++ (páginas Camila Calegari)",
+   "status": "escalando",
+   "ativos": "~77",
+   "delta_ativos": -3,
+   "novos48h": 22,
+   "funil": "WhatsApp",
+   "formato": "vídeo-reação 42s–3 min + estático"
+  },
+  {
+   "nome": "Radiancy",
+   "produto": "suplemento menopausa 'sem hormônio sintético' (Keila Martins)",
+   "status": "novo",
+   "ativos": "~48",
+   "delta_ativos": 24,
+   "novos48h": 48,
+   "funil": "site",
+   "formato": "advertorial em texto longo (imagem)"
+  },
+  {
+   "nome": "FloraBe",
+   "produto": "probiótico em cápsula pra candidíase/vaginose (Laura Nascimento)",
+   "status": "novo",
+   "ativos": "~41",
+   "delta_ativos": null,
+   "novos48h": 26,
+   "funil": "site (go.useharmonya.com.br)",
+   "formato": "advertorial em texto longo"
+  },
+  {
+   "nome": "Candfemm",
+   "produto": "Candfemm",
+   "status": "novo",
+   "ativos": "~43",
+   "delta_ativos": -15,
+   "novos48h": 5,
+   "funil": "WhatsApp (parte com pague na entrega)",
+   "formato": "vídeo 78–167s"
+  },
+  {
+   "nome": "Dr Alexandre Castro",
+   "produto": "VSL de consulta grátis (produto não identificado)",
+   "status": "novo",
+   "ativos": "~47",
+   "delta_ativos": -26,
+   "novos48h": 3,
+   "funil": "WhatsApp",
+   "formato": "VSL 5–6 min numerada"
+  },
+  {
+   "nome": "Vital Femme",
+   "produto": "Vital Femme",
+   "status": "novo",
+   "ativos": "~62",
+   "delta_ativos": -4,
+   "novos48h": 0,
+   "funil": "WhatsApp",
+   "formato": "VSL 3:27–4:10 (44 versões)"
+  },
+  {
+   "nome": "Beatriz C",
+   "produto": "não identificado",
+   "status": "novo",
+   "ativos": 2,
+   "delta_ativos": 0,
+   "novos48h": 0,
+   "funil": "WhatsApp + pagamento na entrega",
+   "formato": "vídeo 1:42"
+  },
+  {
+   "nome": "Cleide Santos",
+   "produto": "suplemento menopausa + metabolismo",
+   "status": "novo",
+   "ativos": 5,
+   "delta_ativos": 0,
+   "novos48h": 0,
+   "funil": "WhatsApp",
+   "formato": "estático"
+  },
+  {
+   "nome": "Saúde Mulher 40+",
+   "produto": "não identificado",
+   "status": "novo",
+   "ativos": 0,
+   "delta_ativos": null,
+   "novos48h": 0,
+   "funil": "—",
+   "formato": "fora do ar (2º dia)"
+  },
+  {
+   "nome": "Reviva / Renuva",
+   "produto": "Reviva Gotas (linfático)",
+   "status": "testando",
+   "ativos": "~870",
+   "delta_ativos": -30,
+   "novos48h": 3,
+   "funil": "site",
+   "formato": "advertorial em vídeo 1–2 min"
+  },
+  {
+   "nome": "Composto Meno",
+   "produto": "Composto Meno (Always Fit)",
+   "status": "estavel",
+   "ativos": "~390",
+   "delta_ativos": 10,
+   "novos48h": 0,
+   "funil": "site",
+   "formato": "vídeo 7–14s"
+  },
+  {
+   "nome": "Amora Miúra",
+   "produto": "Amora Miúra + Vit",
+   "status": "estavel",
+   "ativos": 6,
+   "delta_ativos": 0,
+   "novos48h": 0,
+   "funil": "site",
+   "formato": "estático"
+  },
+  {
+   "nome": "Libidiflora",
+   "produto": "Libidiflora",
+   "status": "caindo",
+   "ativos": "~43",
+   "delta_ativos": -44,
+   "novos48h": 1,
+   "funil": "WhatsApp + pague na entrega",
+   "formato": "VSL 2:48–5:05"
+  },
+  {
+   "nome": "Libidfem",
+   "produto": "Libidfem (Esp Luana Baron)",
+   "status": "caindo",
+   "ativos": 0,
+   "delta_ativos": null,
+   "novos48h": 0,
+   "funil": "—",
+   "formato": "sumiu da Biblioteca (2º dia)"
+  },
+  {
+   "nome": "Serenar",
+   "produto": "Serenar (Verbesen)",
+   "status": "parado",
+   "ativos": 17,
+   "delta_ativos": null,
+   "novos48h": 0,
+   "funil": "site",
+   "formato": "não lido hoje (rodízio)"
+  }
+ ],
+ "validados": [
+  {
+   "titulo": "Dor que ninguém vê, em vídeo de 10 segundos",
+   "quem": "Composto Meno",
+   "tipo": "Ângulo",
+   "formato": "vídeo curto 7–14s",
+   "oque": "Mesma copy em quase toda a conta: 'Tudo parece bem por fora, mas você sabe a verdadeira batalha que enfrenta.' Título: 'O alívio para o que ninguém vê… mas você sente o tempo todo'. Vídeo curtíssimo, só a ideia e o produto.",
+   "evidencia": "84 anúncios com a mesma copy, do 10/08 ao 19/10 (81 dias no ar), em 3 páginas Always Fit; ~390 ativos na conta.",
+   "como_usar": "Vídeo de 8–12s: mulher sorrindo em público e, por baixo, a legenda 'por fora tá tudo bem'. Corta pra gota sublingual + 'Fala com a Amanda, você paga na entrega'. Sem prometer cura."
+  },
+  {
+   "titulo": "Um vídeo sem texto rodando em 5 contas",
+   "quem": "Rede MenoCare / Libidiflora",
+   "tipo": "Método de teste",
+   "formato": "vídeo 2:48–5:05 sem copy",
+   "oque": "O mesmo criativo, sem legenda na copy, aparece com '31 anúncios usam esse criativo' nas páginas Medical Clinic, Especialista Helena, Dra Marina Cardoso, Maria dos Anjos Loureiro e Esp. Fernanda Nogueira. É a prova de que MenoCare e Libidiflora são a mesma operação e espalham o vencedor em várias contas.",
+   "evidencia": "31 versões; anúncios iniciados de 10/10 a 29/10; apareceu em 2 varreduras diferentes hoje.",
+   "como_usar": "Quando um vídeo bater CPA, duplicar o Post ID em 2–3 contas/chips da Amanda em vez de criar criativo novo. Testar também a versão sem texto na copy, só com o vídeo."
+  },
+  {
+   "titulo": "Estático 'Pague somente na entrega'",
+   "quem": "Rede MenoCare / Libidiflora",
+   "tipo": "Oferta",
+   "formato": "estático",
+   "oque": "Copy de 2 linhas: '💵 PAGUE SOMENTE NA ENTREGA! / ✅ Fale com uma especialista no WhatsApp agora mesmo!'. Título '🟢 Online Agora'. Só oferta e risco zero, sem falar do produto.",
+   "evidencia": "12 anúncios em 4 páginas (Elana santos, Helena Especialista, Dr. Helena Barbosa, Patricia Santos), do 21/08 ao 31/10 (70 dias). Ganhou página nova hoje.",
+   "como_usar": "Estático de oferta pura com a foto da Amanda segurando o frasco: 'Você só paga quando a gota chegar na sua casa. Fala comigo no WhatsApp.' Usar como criativo de retomada pra público quente."
+  },
+  {
+   "titulo": "Mesma copy, VSL longa e teste 40+ x 50+",
+   "quem": "MenoCare (página Vinicius Passos)",
+   "tipo": "Método de teste",
+   "formato": "VSL 3:41 / 8:38 / 9:55",
+   "oque": "A copy 'Cuidado desenvolvido pensando nas necessidades da mulher 40+. 💬 Tire suas dúvidas diretamente com uma especialista' saiu dos vídeos curtos da Helena e virou VSL longa numa persona masculina. Hoje subiram duas variações de idade: 40+ e 50+.",
+   "evidencia": "22 vídeos 68–89s com essa copy na Helena Especialista em 28/10; 9 VSLs longas na Vinicius Passos em 27/10 e mais 13 hoje (31/10), todas com pague na entrega. Copy repetida em lote novo = a operação dobrou.",
+   "como_usar": "Pegar o roteiro curto que mais vende e gravar uma versão de 5–8 min com a Amanda explicando com calma. Subir 2 conjuntos iguais mudando só a idade da copy (45+ x 55+) pra ver qual faixa compra mais."
+  },
+  {
+   "titulo": "Desejo + autoestima, não só calorão",
+   "quem": "Libidiflora (Dr Patrícia Almeida)",
+   "tipo": "Ângulo",
+   "formato": "VSL 3:05–3:14",
+   "oque": "'☘️ VOLTE A SE SENTIR DESEJADA, CONFIANTE E CHEIA DE ENERGIA! Milhares de mulheres acima dos 40 anos estão recuperando a autoestima, o prazer e a disposição.' Título 'PAGUE NA ENTREGA | FALE COM A ESPECIALISTA'.",
+   "evidencia": "Copy rodando desde 30/08 (60+ dias), anúncios iniciados de 06/10 a 31/10, novo anúncio hoje mesmo depois do lote de 29/10 sair do ar.",
+   "como_usar": "Abrir pelo sentimento ('voltar a se sentir desejada') e só depois falar de sintoma. Fechar com a Amanda e o pague na entrega. Evitar 'Dra.' e qualquer promessa sexual explícita."
+  },
+  {
+   "titulo": "VSL de 'consulta grátis' que não sai do ar",
+   "quem": "Dr Alexandre Castro",
+   "tipo": "Formato",
+   "formato": "VSL 2:37–6:03",
+   "oque": "Copy de 5 palavras ('Fale comigo agora mesmo!', 'Faça Sua Consulta Grátis!') e o vídeo faz todo o trabalho. A operação numera as versões (48 -, 113 -, 132 -) e troca só detalhes.",
+   "evidencia": "VSL de 06/06 ainda ativa (147 dias); 'Fale comigo agora mesmo!' em 10 anúncios de 05/08 a 10/09; '132 -' com 17 versões; 3 VSLs novas em 30–31/10.",
+   "como_usar": "Copy curta tipo 'Fala comigo, a conversa é grátis' + vídeo longo da Amanda (especialista, nunca médico). Numerar as versões no nome do anúncio pra saber qual abertura venceu."
+  },
+  {
+   "titulo": "'Não é gordura, é inchaço'",
+   "quem": "Reviva / Renuva",
+   "tipo": "Mecanismo",
+   "formato": "vídeo 69–138s",
+   "oque": "'VOCÊ NÃO ESTÁ NECESSARIAMENTE ENGORDANDO. TALVEZ ESTEJA APENAS CARREGANDO MAIS INCHAÇO DO QUE IMAGINA.' Troca a culpa da mulher por um vilão escondido (linfa travada).",
+   "evidencia": "10 anúncios com essa copy na página Maria Paula entre 26/10 e 29/10 (2 lotes seguidos); conta com ~870 ativos.",
+   "como_usar": "Mesma virada pro LibidLizze: 'Não é falta de amor pelo seu marido, é a sua fase hormonal.' Tira a culpa e apresenta a gota como apoio. Sem prometer resultado."
+  }
+ ],
+ "panorama": {
+  "texto": "O mercado se dividiu em dois modelos. De um lado, COD pelo WhatsApp com 'especialista' (rede MenoCare/Libidiflora, Femme+, Candfemm, Vital Femme, Dr Alexandre), que sobe muito anúncio, espalha o mesmo criativo em várias contas e derruba lote rápido. Do outro, e-commerce com advertorial longo em 1ª pessoa (Radiancy, FloraBe, Reviva/Renuva), que sobe dezenas de histórias diferentes de uma vez. O ângulo que mais cresceu nas últimas 48h foi saúde íntima (candidíase, vaginose, região íntima) e o formato que mais subiu foi VSL longa (MenoCare testando até ~10 min).",
+  "mecanismos": [
+   {
+    "nome": "Sem hormônio",
+    "desc": "'sem nenhum hormônio sintético', 'livre de hormônios' como diferencial de segurança",
+    "quem": "Radiancy, Amora Miúra, Natural BR"
+   },
+   {
+    "nome": "Disbiose / flora",
+    "desc": "candidíase e vaginose seriam a mesma coisa (disbiose), probiótico 'patenteado'",
+    "quem": "FloraBe, Candfemm"
+   },
+   {
+    "nome": "Linfa travada",
+    "desc": "inchaço, fígado e rins 'entupidos' explicam peso e cansaço",
+    "quem": "Reviva / Renuva"
+   }
+  ],
+  "angulos": [
+   {
+    "nome": "Desejo e autoestima",
+    "desc": "voltar a se sentir desejada, confiante",
+    "quem": "Libidiflora, Beatriz C"
+   },
+   {
+    "nome": "História real em 1ª pessoa",
+    "desc": "consulta de 9 minutos, técnica de enfermagem, marido que trocou, exames normais",
+    "quem": "Radiancy, FloraBe, Renuva"
+   },
+   {
+    "nome": "Dica de amiga / reação",
+    "desc": "'Oha essa dica INCRÍVEL', 'Uma dica super valiosa pra vocês'",
+    "quem": "Femme+"
+   },
+   {
+    "nome": "Dor invisível",
+    "desc": "por fora tudo bem, por dentro uma batalha",
+    "quem": "Composto Meno"
+   }
+  ],
+  "formatos": [
+   {
+    "nome": "VSL longa 5–10 min",
+    "desc": "persona masculina e 'consulta grátis', variações numeradas",
+    "quem": "MenoCare (Vinicius Passos), Dr Alexandre Castro"
+   },
+   {
+    "nome": "Advertorial de texto longo",
+    "desc": "imagem + texto enorme, cada anúncio uma história diferente",
+    "quem": "Radiancy (48), FloraBe (~41)"
+   },
+   {
+    "nome": "Vídeo curto 7–14s",
+    "desc": "uma ideia, produto, CTA",
+    "quem": "Composto Meno"
+   },
+   {
+    "nome": "Estático de oferta",
+    "desc": "só 'pague na entrega' + especialista online",
+    "quem": "rede MenoCare/Libidiflora"
+   }
+  ],
+  "funis_ofertas": [
+   {
+    "nome": "WhatsApp + pague na entrega",
+    "desc": "título 'PAGUE NA ENTREGA | FALE COM A ESPECIALISTA'",
+    "quem": "MenoCare, Libidiflora, Candfemm, Beatriz C"
+   },
+   {
+    "nome": "Prova social em número",
+    "desc": "'35.467 avaliações', '+15.000 mulheres', '+4 mil mulheres usam e recomendam'",
+    "quem": "MenoCare, Femme+"
+   },
+   {
+    "nome": "Leve 3 pague 2",
+    "desc": "kit no site",
+    "quem": "Reviva / Renuva"
+   }
+  ]
+ },
+ "dias_memoria": "4 dias de histórico (28–31/10)",
+ "tendencias": [
+  "Rede MenoCare/Libidiflora: a contagem da busca oscila muito (MenoCare ~200→~150→~100; Libidiflora ~61→~87→~43), mas o ritmo de lançamento não para. A operação derruba lote e sobe outro em outra página (Vinicius Passos, Patricia Santos, Fernanda Nogueira, Maria dos Anjos Loureiro).",
+  "Femme+ segue no mesmo ritmo há 3 dias (28, 25 e agora 22 novos em 48h) e trocou de ângulo: saiu do 'filho fala com a mãe' pra vídeos-reação de 'dica' e um gancho de urgência ('VEJA O VÍDEO ATÉ O FINAL').",
+  "O advertorial em 1ª pessoa está crescendo: Radiancy foi de 24 pra 48 em 2 dias e o FloraBe entrou com ~41. Os dois usam história com detalhe de vida real e funil de site.",
+  "Libidfem e Saúde Mulher 40+ estão no 2º dia sem nenhum anúncio. Se amanhã continuar zerado, contam como fora do ar.",
+  "Dr Alexandre Castro caiu de ~73 pra ~47 depois do pico de 29/10, mas segue subindo 1–2 VSLs numeradas por dia."
+ ],
+ "movimentos": [
+  {
+   "nome": "MenoCare",
+   "status": "escalando",
+   "numeros": {
+    "novos 48h": 24,
+    "ativos (busca)": "~100",
+    "VSLs hoje na Vinicius Passos": 13
+   },
+   "itens": [
+    "31/10: 13 VSLs longas (3:41, 8:38, 9:55) na Vinicius Passos, todas com pague na entrega, testando 'mulher 40+' x 'mulher 50+'.",
+    "29/10: 8 anúncios na Helena Especialista (3 estáticos 'pague somente na entrega' + 'Calor, insônia, irritação e cansaço acabando com seus dias?' com '35.467 avaliações').",
+    "31/10: página nova Patricia Santos com 2 estáticos 'PAGUE SOMENTE NA ENTREGA' (mesma copy da Elana santos)."
+   ],
+   "exemplos": [
+    {
+     "texto": "Cuidado desenvolvido pensando nas necessidades da mulher 50+. 💬 Tire suas dúvidas diretamente com uma especialista.",
+     "fonte": "Vinicius Passos · VSL 3:42 · 31/10"
+    },
+    {
+     "texto": "😣 Calor, insônia, irritação e cansaço acabando com seus dias? 🌿 Mulheres estão usando MenoCare para mais equilíbrio, energia e disposição.",
+     "fonte": "Helena Especialista · estático · 29/10"
+    }
+   ]
+  },
+  {
+   "nome": "Femme+",
+   "status": "escalando",
+   "numeros": {
+    "novos 48h": 22,
+    "29/10": 10,
+    "30/10": 6,
+    "31/10": 6
+   },
+   "itens": [
+    "Vídeos-reação 'Oha essa dica INCRÍVEL / SENSACIONAL' (42s a 3:06) na Camila Calegari - FEMME, com título 'Mais de 4 mil mulheres usam e recomendam'.",
+    "Gancho novo: '🚨 SOFRENDO COM MENOPAUSA? VEJA O VÍDEO ATÉ O FINAL🚨' (2:21) em 3 anúncios de 30–31/10 na Dra. Camila Calegari.",
+    "31/10: 'Quer conhecer o Femme+? Veja o depoimento' com '+15.000 mulheres usam e recomendam'.",
+    "Página Mariana Mello (30/10): 'Não é só Amora, Nem é só Vitamina', provocando o Amora Miúra.",
+    "Atenção: anúncio isca 'estou com muita fome, me ajude' na Dra Camila Calegari (30/10), pra puxar engajamento."
+   ],
+   "exemplos": [
+    {
+     "texto": "🚨 SOFRENDO COM MENOPAUSA? VEJA O VÍDEO ATÉ O FINAL🚨",
+     "fonte": "Dra. Camila Calegari · vídeo 2:21 · 30–31/10"
+    },
+    {
+     "texto": "🌷 Não é só Amora, Nem é só Vitamina 💕",
+     "fonte": "Mariana Mello · vídeo 58s · 30/10"
+    }
+   ]
+  },
+  {
+   "nome": "Libidiflora",
+   "status": "caindo",
+   "numeros": {
+    "ativos (busca)": "~43",
+    "Δ ativos": -44,
+    "novos 48h": 1
+   },
+   "itens": [
+    "O lote de 24 VSLs de 29/10 na Dr Patrícia Almeida saiu do ar (só sobrou 1 anúncio de 28/10 na busca).",
+    "Mesmo assim a página subiu 1 VSL nova hoje (31/10, 3:14) com 'VOLTE A SE SENTIR DESEJADA'.",
+    "O criativo de 31 versões da Medical Clinic apareceu também nas páginas Maria dos Anjos Loureiro e Esp. Fernanda Nogueira (29/10)."
+   ],
+   "exemplos": [
+    {
+     "texto": "☘️ VOLTE A SE SENTIR DESEJADA, CONFIANTE E CHEIA DE ENERGIA!",
+     "fonte": "Dr Patrícia Almeida · VSL 3:14 · 31/10"
+    }
+   ]
+  },
+  {
+   "nome": "Radiancy",
+   "status": "novo",
+   "numeros": {
+    "ativos": 48,
+    "29/10": 35,
+    "30/10": 13
+   },
+   "itens": [
+    "48 advertoriais na Keila Martins, cada um com uma história diferente, todos pro site, título 'Isso me ajudou MUITO!!! ⭐ 4.9/5'.",
+    "Histórias: técnica de enfermagem de UPA no Recife, 'consulta de nove minutos', 'aos 31 era candidíase, aos 46 tinha outro nome', 3 exames de urina normais, viúva com infecção urinária."
+   ],
+   "exemplos": [
+    {
+     "texto": "Nove minutos. Foi o tempo que durou a consulta que eu esperei quatro meses pra conseguir.",
+     "fonte": "Keila Martins · advertorial · 29/10"
+    }
+   ]
+  },
+  {
+   "nome": "Candfemm",
+   "status": "novo",
+   "numeros": {
+    "novos 48h": 5,
+    "ativos": "~43"
+   },
+   "itens": [
+    "30/10: 3 vídeos de 78s na Dr Nathalia Silva com o checklist 'Coceira, ardência, irritação, odor, corrimento'.",
+    "30/10: 2 vídeos na Dra Nathalia Costa, um ainda com '[nome do produto]' no texto (copy de modelo)."
+   ],
+   "exemplos": [
+    {
+     "texto": "Coceira, ardência, irritação, odor, corrimento ou aquela sensação de que algo não está bem…",
+     "fonte": "Dr Nathalia Silva · vídeo 78s · 30/10"
+    }
+   ]
+  },
+  {
+   "nome": "Dr Alexandre Castro",
+   "status": "novo",
+   "numeros": {
+    "novos 48h": 3,
+    "ativos": "~47"
+   },
+   "itens": [
+    "30/10: '113 - Fale com Dr agora mesmo!' (5:00) e '48 - Faça Sua Consulta Grátis!' (6:03).",
+    "31/10: '132 - Fale com Dr agora!' (6:00), criativo com 17 versões."
+   ],
+   "exemplos": [
+    {
+     "texto": "48 - Faça Sua Consulta Grátis!",
+     "fonte": "Dr Alexandre Castro · VSL 6:03 · 30/10"
+    }
+   ]
+  },
+  {
+   "nome": "Reviva / Renuva",
+   "status": "testando",
+   "numeros": {
+    "novos 48h": 3
+   },
+   "itens": [
+    "29/10: 3 vídeos (69–94s) na Maria Paula com 'você não está engordando, é inchaço'.",
+    "30/10: advertorial em vídeo de 6:47 na Renuva ('um homem parou no meio do café')."
+   ],
+   "exemplos": [
+    {
+     "texto": "VOCÊ NÃO ESTÁ NECESSARIAMENTE ENGORDANDO. TALVEZ ESTEJA APENAS CARREGANDO MAIS INCHAÇO DO QUE IMAGINA.",
+     "fonte": "Maria Paula · vídeo 74s · 29/10"
+    }
+   ]
+  }
+ ],
+ "novos_players": [
+  {
+   "nome": "FloraBe (página Laura Nascimento)",
+   "produto": "probiótico em cápsula pra candidíase e vaginose (go.useharmonya.com.br)",
+   "obs": "~41 ativos: 5 em 27/10, 18 em 29/10, 8 em 30/10. Advertorial enorme em 1ª pessoa ('me livrei de 2 anos de vaginose sem antibiótico'), mecanismo 'disbiose bacteriana', cita 'Dra. Letícia' de grupo do Facebook. Mesmo estilo do Radiancy."
+  }
+ ],
+ "sugestoes": [
+  {
+   "titulo": "Por fora tá tudo bem",
+   "formato": "vídeo curto 10s",
+   "angulo": "dor invisível",
+   "mecanismo": "gota sublingual sem hormônio",
+   "hook": "Por fora tá tudo bem. Por dentro, ninguém sabe.",
+   "roteiro": [
+    "0–2s: mulher 50+ sorrindo num almoço de família; legenda 'por fora tá tudo bem'.",
+    "2–5s: corte pra ela sozinha no quarto, ventilador ligado, cansada; legenda 'por dentro: calorão, cansaço, zero vontade'.",
+    "5–8s: mão pinga a gota debaixo da língua; legenda 'uma gotinha por dia, sem hormônio'.",
+    "8–10s: tela final com a foto da Amanda: 'Fala comigo no WhatsApp. Você paga na entrega.'"
+   ],
+   "cta": "Fala com a Amanda no WhatsApp",
+   "porque": "Modela o validado do Composto Meno: mesma ideia em 84 anúncios desde 10/08, com vídeos de 7–14s."
+  },
+  {
+   "titulo": "45+ ou 55+? Mesma conversa",
+   "formato": "VSL 5–8 min (2 versões)",
+   "angulo": "explicação com calma da especialista",
+   "mecanismo": "gota sublingual",
+   "hook": "Se você tem mais de 45 e sente que perdeu a vontade, me dá 5 minutos.",
+   "roteiro": [
+    "Abertura com a Amanda olhando pra câmera, falando a idade da copy (45+ numa versão, 55+ na outra).",
+    "O que acontece no corpo nessa fase: calorão, sono, ressecamento, desejo lá embaixo.",
+    "Por que gota sublingual (absorve pela boca, sem cápsula grande).",
+    "Como funciona a compra: chama no WhatsApp, recebe em casa, paga na entrega.",
+    "Fechamento: 'Clica aqui embaixo e fala comigo, a conversa é sem compromisso.'"
+   ],
+   "cta": "Clica e fala com a Amanda",
+   "porque": "Modela o validado da MenoCare: a mesma copy virou VSL longa e subiu 13 versões hoje testando 40+ x 50+."
+  },
+  {
+   "titulo": "O vídeo que vai pras 3 contas",
+   "formato": "vídeo 2–3 min sem texto na copy",
+   "angulo": "depoimento + especialista",
+   "mecanismo": "gota sublingual",
+   "hook": "Eu achava que era normal não ter mais vontade de nada.",
+   "roteiro": [
+    "0–5s: mulher 50+ fala o gancho direto pra câmera.",
+    "5–40s: ela conta a rotina (calorão de madrugada, marido distante, cansaço).",
+    "40–80s: conheceu a Amanda no WhatsApp, recebeu a gota e pagou na entrega.",
+    "80–120s: Amanda explica em 3 frases como usar.",
+    "Final: 'Clica no botão e fala com ela.'"
+   ],
+   "cta": "Enviar mensagem no WhatsApp",
+   "porque": "Modela o validado da rede MenoCare/Libidiflora: um criativo sem copy com 31 versões, rodando em 5 páginas de 10/10 a 29/10. Subir sem texto e duplicar o Post ID nos 2 chips quando bater o CPA."
+  },
+  {
+   "titulo": "Não é falta de amor, é a fase",
+   "formato": "UGC 60–90s",
+   "angulo": "tirar a culpa",
+   "mecanismo": "virada de vilão (hormônio, não ela)",
+   "hook": "Você não deixou de amar seu marido. Seu corpo é que mudou.",
+   "roteiro": [
+    "Gancho em letreiro grande nos 3 primeiros segundos.",
+    "Mulher conta que se sentia culpada por fugir do marido.",
+    "Virada: 'não era eu, era a menopausa mexendo com tudo'.",
+    "Apresenta a gota sublingual como apoio pra rotina.",
+    "Amanda fecha: 'Me chama, te explico e você só paga quando receber.'"
+   ],
+   "cta": "Fala com a Amanda",
+   "porque": "Modela o mecanismo validado da Reviva ('não é gordura, é inchaço', 10 anúncios em 2 lotes seguidos) e o ângulo de desejo da Libidiflora, no ar há 60+ dias."
+  },
+  {
+   "titulo": "Conversa grátis com a Amanda",
+   "formato": "VSL 5 min + copy de 5 palavras",
+   "angulo": "atendimento sem compromisso",
+   "mecanismo": "gota sublingual",
+   "hook": "Antes de comprar qualquer coisa pra menopausa, conversa comigo.",
+   "roteiro": [
+    "Copy do anúncio só: 'Fala comigo agora, é grátis.'",
+    "Amanda se apresenta como especialista do LibidLizze (sem jaleco, sem 'Dra.').",
+    "Lista os 3 sinais mais comuns e pergunta 'você se reconheceu?'.",
+    "Explica a gota e o pagamento na entrega.",
+    "Convida: 'Me chama, eu respondo pessoalmente.'"
+   ],
+   "cta": "Fale comigo agora",
+   "porque": "Modela o validado do Dr Alexandre Castro: VSL com copy de 5 palavras no ar desde 06/06 (147 dias) e versões numeradas até a 132."
+  }
+ ],
+ "estaticos": [
+  {
+   "titulo": "Oferta pura",
+   "headline": "Chegou? Aí sim você paga",
+   "texto": "Fala com a Amanda no WhatsApp, recebe a gota em casa e paga na entrega. 🟢 Online agora.",
+   "visual": "Foto real da Amanda segurando o frasco, selo verde 'pague na entrega' no canto."
+  },
+  {
+   "titulo": "Dor invisível",
+   "headline": "Por fora tá tudo bem…",
+   "texto": "…mas só você sabe o calorão, o cansaço e a vontade que sumiu. Tem como cuidar disso sem hormônio.",
+   "visual": "Mulher 50+ sorrindo, com um balão de pensamento escrito 'ninguém imagina'."
+  },
+  {
+   "titulo": "Prova social",
+   "headline": "Milhares de mulheres 45+ já falaram com a Amanda",
+   "texto": "Gota sublingual, atendimento pelo WhatsApp e pagamento na entrega.",
+   "visual": "Mosaico de prints reais de conversa (com autorização) + frasco no centro."
+  }
+ ],
+ "alertas": [
+  "Páginas com 'Dr./Dra.' que parecem perfis montados: Dr Patrícia Almeida, Dra Nathalia Costa, Dr Nathalia Silva, Dra. Manuela Castro, Dr Alexandre Castro e várias 'Dra. Camila Calegari' (existe uma Dra. Camila Calegari real de harmonização facial, então o risco de denúncia é alto). Não copiar.",
+  "Femme+ usa anúncio isca ('estou com muita fome, me ajude') pra puxar engajamento. Isso derruba conta e não serve pro LibidLizze.",
+  "Promessas fortes: 'CANDIDÍASE NUNCA MAIS' (Candfemm), 'me livrei de 2 anos de vaginose sem antibiótico' (FloraBe), histórias de trombose/UTI (Radiancy). Não usar promessa de cura nem relato médico inventado.",
+  "Candfemm subiu anúncio com '[nome do produto]' no texto: sinal de operação em massa com copy de modelo.",
+  "Falhas da coleta: Libidfem (página e busca) e Saúde Mulher 40+ devolveram 0 resultados pelo 2º dia; Serenar não foi lido hoje (rodízio de parado). O navegador apagou a memória local do extrator entre as páginas, então 'novos' = anúncios iniciados nas últimas 48h.",
+  "Site (GitHub Pages) não foi atualizado hoje: a ferramenta de acesso ao repositório não está disponível nesta sessão. O relatório está no HUB e no Telegram."
+ ],
+ "arquivo": [
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas na Vinicius Passos, Libidiflora cai pra ~43, Femme+ +22, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, Femme+ copia MenoCare, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "2ª leitura: Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min, 2 novos players"
+  },
+  {
+   "data": "29/10/2026 (1ª leitura)",
+   "href": "reports/2026-10-29-1.html",
+   "resumo": "MenoCare e Libidiflora escalando: 6 jogadas validadas, 4 novos players"
+  }
+ ],
+ "metodologia": "Coleta em 31/10/2026 (06:42–07:00) na Biblioteca de Anúncios da Meta (Brasil, anúncios ativos), com o extrator do HUB no navegador do app: 16 leituras de concorrentes + 6 varreduras = 22 buscas. Decisões tomadas sem perguntar: (1) o navegador apagou o localStorage entre as páginas, então 'novos' = iniciados nas últimas 48h e 'sumidos' não foi calculado; (2) ativos = maior contagem '~N resultados' entre as buscas do concorrente (é aproximada e oscila); (3) MenoCare soma os novos da busca (9) + Vinicius Passos (13) + Patricia Santos (2), que usam a mesma copy; (4) quando Δ ≤ −15% e novos48h < 5, o status é 'caindo' mesmo com algum anúncio novo (Libidiflora); com 5+ novos fica 'escalando' (MenoCare); (5) Femme+ contado pela busca 'Camila Calegari' (a busca 'femme++ menopausa' traz ~180 com ruído); (6) Patricia Santos, Maria dos Anjos Loureiro e Esp. Fernanda Nogueira foram atribuídas à rede MenoCare/Libidiflora por usarem os mesmos criativos, e não viraram novo player; (7) Serenar ficou fora (parado, rodízio). O mergulho em vídeo (frames 10/35/60/85%) não foi feito hoje pra não atrasar o envio; os validados vêm de copy, datas, repetição e contagem de versões. Anúncios de Amada Chagas (LibidLizze) foram ignorados."
+}

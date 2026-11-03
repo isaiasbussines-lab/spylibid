@@ -1,9 +1,9 @@
 # Spy Libid
 
-Relatório diário de espionagem dos anúncios dos concorrentes do LibidLizze (Biblioteca de Anúncios da Meta).
-
-- `index.html` — relatório mais recente (atualizado todo dia ~7h pelo robô)
-- `reports/AAAA-MM-DD.html` — histórico diário (e o `.json` com os dados de cada dia)
-- `tools/` — modelo do relatório, extrator e gerador estático usados pelo robô
+Relatório diário dos concorrentes do LibidLizze: os 3 criativos escalados pra modelar no dia, com link da Biblioteca de Anúncios da Meta.
 
 Site: https://isaiasbussines-lab.github.io/spylibid/
+
+- `index.html`: relatório do dia (HTML estático, sem JavaScript)
+- `reports/`: relatórios anteriores (`.html` + `.json`)
+- `tools/`: modelo (`template.html`), gerador estático (`render_static.js`), extrator da Biblioteca (`extract.js`), sonda de vídeo (`video_probe.js`, `decode_probe.py`, `setup_whisper.sh`) e `publish_browser.js` (publicação pelo navegador)

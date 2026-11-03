@@ -1,0 +1,119 @@
+{
+  "versao": 2,
+  "data": "03/11/2026",
+  "gerado_em": "03/11/2026 10:40",
+  "manchete": "Grave hoje: a pergunta da cliente na tela e a gotinha pingando nos 3 primeiros segundos",
+  "padrao": "Dois dos três criativos mais escalados do mercado abrem com a dúvida da cliente escrita na tela (caixinha de pergunta ou resposta a comentário), e os três falam de secura e falta de vontade juntas. Esse é o formato de abertura pra testar hoje.",
+  "modelar": [
+    {
+      "titulo": "A gotinha na frente da câmera",
+      "marca": "Composto Meno",
+      "pagina": "Always Fit Suplementos",
+      "link": "https://www.facebook.com/ads/library/?id=1830369044611807",
+      "formato": "UGC de produto na mão · 0:43",
+      "numeros": "no ar desde 30/08 (65 dias) · o texto dele roda em 81 anúncios desde 10/08",
+      "por_que": "É o anúncio com mais impressões da marca. Vídeo curto, conta-gotas pingando no primeiro segundo e um hook de humor picante. Encaixa perfeito no LibidLizze, que também é gota.",
+      "novo": true,
+      "original": {
+        "hook": "Seu marido vai te implorar pra parar de tomar isso aqui.",
+        "estrutura": [
+          "0–3s: pinga o conta-gotas na frente da câmera, com a tarja \"Azulzinha feminina!\" e figurinha de resposta a comentário",
+          "3–16s: fala o que tem e o que melhora (libido, lubrificação, calorão, pele, humor)",
+          "16–21s: \"ela tá tomando e o fogo só aumentou\"",
+          "21–36s: costura com o vídeo de uma especialista falando dos ingredientes",
+          "36–43s: \"se você tá nessa fase, clica e garante o seu\""
+        ]
+      },
+      "nossa_versao": {
+        "persona": "Carla",
+        "hook": "Cuidado: depois dessa gotinha, quem vai pedir arrego é o teu marido.",
+        "roteiro": [
+          "0–3s: Carla pinga embaixo da língua olhando pra câmera e solta o hook. Tarja: \"a gotinha das casadas\"",
+          "3–15s: \"É gota, vai direto pro sangue, até 13x mais forte que cápsula. Vontade, umidade, sono e calorão voltando pro lugar.\"",
+          "15–25s: costura com a Sônia: \"Depois dos 40 rola um apagão hormonal. A gota religa.\"",
+          "25–35s: Carla rindo: \"Meu marido já perguntou o que mudou. Não conto.\""
+        ],
+        "cta": "Toca no botão e fala com a Amanda no WhatsApp. Você só paga quando chegar."
+      },
+      "cuidado": "a marca e o rótulo deles; não dizer que substitui remédio."
+    },
+    {
+      "titulo": "Esquece gel e hormônio",
+      "marca": "Libidiflora",
+      "pagina": "Medical Clinic e Dr Patrícia Almeida",
+      "link": "https://www.facebook.com/ads/library/?id=986682811139863",
+      "formato": "VSL de especialista · 2:48",
+      "numeros": "37 anúncios com o mesmo vídeo (31 + 6 versões) em 2 páginas · no ar desde 30/09 (34 dias)",
+      "por_que": "Medo pesado mais uma causa só que explica secura e falta de vontade. Eles dobraram o mesmo vídeo numa segunda página em 16/10 com 31 versões.",
+      "novo": true,
+      "original": {
+        "hook": "Esqueça lubrificantes e hormônios. Se você tem ressecamento e zero libido, vou te mostrar como voltar a se molhar igual aos 18 anos em 2 semanas.",
+        "estrutura": [
+          "0–10s: descarta o que ela já conhece (gel e hormônio) enquanto despeja gel na mão, e promete com prazo",
+          "10–19s: \"não é fase nem estresse, é o aviso de que o seu casamento acaba em 6 meses\"",
+          "19–48s: quem fala + a vida dela (ardência, desculpa de dor de cabeça pra fugir do marido) + \"seu ginecologista mentiu\"",
+          "48–92s: o inimigo (gel e hormônio) → a causa única (\"a sua flora está morta\", com animação 3D) → \"a sua falta de libido empurra seu marido pra outra\"",
+          "~110s produto na mão · fim: \"liberado pra pagamento na entrega, não deixe seu casamento acabar por orgulho\""
+        ]
+      },
+      "nossa_versao": {
+        "persona": "Amanda (sem jaleco)",
+        "hook": "Esquece gel e esquece hormônio. Se você secou e a vontade sumiu, eu vou te explicar o que tá acontecendo de verdade.",
+        "roteiro": [
+          "0–10s: Amanda joga um tubo de gel no lixo enquanto fala o hook",
+          "10–30s: \"Não é fase, não é cansaço. E se você inventa dor de cabeça pra fugir dele, presta atenção.\"",
+          "30–60s: gel só disfarça e hormônio assusta. A causa é o apagão hormonal: os 3 hormônios caem juntos, como tomada puxada (animação simples)",
+          "60–80s: \"Enquanto você foge, ele começa a olhar pro lado.\"",
+          "80–110s: frasco na mão, gota sublingual 13x mais forte que cápsula, natural, sem hormônio + aviso de falsificado no Mercado Livre e Shopee"
+        ],
+        "cta": "Chama a Amanda no WhatsApp. Pague só na entrega. Não deixa teu casamento esfriar por vergonha."
+      },
+      "cuidado": "jaleco ou \"Dra.\", \"seu ginecologista mentiu\", \"igual aos 18 anos em 2 semanas\" e prazo de divórcio."
+    },
+    {
+      "titulo": "A pergunta da seguidora",
+      "marca": "Vital Femme",
+      "pagina": "Horizonte Mulher",
+      "link": "https://www.facebook.com/ads/library/?id=4412626368883706",
+      "formato": "Um take só, ao ar livre · 3:56",
+      "numeros": "44 versões · no ar desde 12/09 (52 dias) · duplicado numa página nova (Mulher em Equilíbrio) em 29/10",
+      "por_que": "O criativo com mais versões do nicho. É um homem falando num jardim, com a caixinha \"Faça uma pergunta\" do Instagram fixa na tela. Tem cara de story respondendo seguidora, não de anúncio.",
+      "novo": true,
+      "original": {
+        "hook": "Se o que eu vou te mostrar não fizer diferença na sua vida, eu rasgo meu diploma e fecho meu consultório.",
+        "estrutura": [
+          "0–8s: garantia absurda + caixinha na tela: \"Dr., eu não tenho mais vontade de namorar com o meu marido, o que eu posso fazer?\"",
+          "8–19s: quem é e por que entende (\"há anos só atendo mulher na menopausa\")",
+          "19–66s: \"vê se você se reconhece\": desejo sumiu, dói e ela inventa desculpa, calorão no meio da reunião, faz dieta e a calça não fecha",
+          "66s+: \"se você se reconheceu em pelo menos duas…\" → a explicação → o produto",
+          "fim: repete a garantia + \"clica antes que a vaga dessa semana feche\""
+        ]
+      },
+      "nossa_versao": {
+        "persona": "Amanda, ao ar livre",
+        "hook": "Essa é a pergunta que eu mais recebo. E se o que eu te mostrar agora não fizer sentido pra você, pode me bloquear.",
+        "roteiro": [
+          "0–8s: caixinha na tela: \"Amanda, não tenho mais vontade de nada com meu marido. O que eu faço?\" + hook",
+          "8–40s: \"Vê se você se reconhece\": a vontade sumiu / dói e você inventa desculpa / calorão no meio do dia / a calça não fecha",
+          "40–70s: \"Se você marcou duas, não é idade: é apagão hormonal\" (tomada puxada)",
+          "70–100s: frasco na mão, gota sublingual 13x mais forte que cápsula, natural, sem hormônio + aviso de falsificado"
+        ],
+        "cta": "Me chama no WhatsApp aqui embaixo. Eu respondo por ordem de chegada, e você só paga quando receber."
+      },
+      "cuidado": "a pergunta tem que ser a caixinha genérica escrita por nós, nunca print com nome ou foto de cliente real; e nada de \"rasgo meu diploma\" (a Amanda não é médica)."
+    }
+  ],
+  "mudou": [
+    "Secura íntima é o ângulo que mais cresce: a Femme++ subiu 22 anúncios em 48h puxando \"falta de lubrificação não é normal da idade\".",
+    "Dr Alexandre Castro subiu 29 VSLs numeradas em 48h com a mesma copy: é 1 roteiro testado com várias aberturas. Dá pra fazer igual com os 3 hooks acima.",
+    "MenoCare quase dobrou (~73 → ~140 anúncios) com VSLs curtas de 1:13 a 2:00 e abriu a página \"Helena Monteiro\"."
+  ],
+  "arquivo": [
+    {"data": "03/11/2026", "href": "reports/2026-11-03.html", "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"},
+    {"data": "02/11/2026", "href": "reports/2026-11-02.html", "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"},
+    {"data": "31/10/2026", "href": "reports/2026-10-31.html", "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"},
+    {"data": "30/10/2026", "href": "reports/2026-10-30.html", "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"},
+    {"data": "29/10/2026", "href": "reports/2026-10-29.html", "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"}
+  ],
+  "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, anúncios ativos), lida em 03/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". As falas foram transcritas automaticamente do áudio e podem ter uma palavra trocada."
+}
