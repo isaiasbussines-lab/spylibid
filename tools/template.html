@@ -38,6 +38,7 @@ section { display: grid; gap: 14px; }
 :root[data-theme="dark"] .btn { color: #15121B; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn { color: #15121B; } }
 .why { font-size: 15px; }
+.btn.painel { background: var(--fg); color: var(--bg); }
 .orig, .nossa { padding: 12px 16px 14px; display: grid; gap: 8px; border-top: 1px solid var(--line); }
 .lbl { font: 500 11px/1 var(--f-mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
 .nossa { background: var(--good-soft); }
@@ -67,6 +68,7 @@ footer { font-size: 12px; color: var(--muted); }
   function list(tag, items) { return items && items.length ? '<' + tag + '>' + items.map(function (i) { return '<li>' + e(i) + '</li>'; }).join('') + '</' + tag + '>' : ''; }
   var o = [];
   o.push('<header><div class="eyebrow">Spy Libid · ' + e(D.data) + '</div><h1>' + e(D.manchete || '') + '</h1></header>');
+  o.push('<a class="btn painel" href="https://claude.ai/artifact/XzUinAysMH9S3HyZqo13P8" target="_blank" rel="noopener">Abrir o painel: Garimpo, Vitrine e Modelar →</a>');
   if (D.padrao) o.push('<p class="padrao"><b>Padrão do dia:</b> ' + e(D.padrao) + '</p>');
   if (D.modelar && D.modelar.length) {
     o.push('<section><h2>' + D.modelar.length + ' criativos escalados pra modelar hoje</h2>' + D.modelar.map(function (c, i) {
