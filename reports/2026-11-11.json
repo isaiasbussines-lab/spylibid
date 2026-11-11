@@ -1,0 +1,151 @@
+{
+ "versao": 2,
+ "data": "11/11/2026",
+ "gerado_em": "11/11/2026 12:33",
+ "manchete": "Grave hoje: o lubrificante no lixo e a cena dela fugindo do marido na cama",
+ "padrao": "2 dos 3 abrem atacando o que ela já tentou (lubrificante, pomada, 'tentou de tudo') e 2 descrevem a fuga na cama em detalhe (deita mais cedo, inventa dor de cabeça, fica no celular até ele apagar) antes de mostrar o produto. Os 3 fecham em pague na entrega.",
+ "modelar": [
+  {
+   "titulo": "Produto na mão + caso da paciente",
+   "marca": "MenoCare",
+   "pagina": "Helena Monteiro",
+   "link": "https://www.facebook.com/ads/library/?id=1153864477330187",
+   "formato": "UGC de produto na mão + caso de consultório · 1:52",
+   "numeros": "11 versões em 2 dias · no ar desde 09/11 · MenoCare com ~190 anúncios ativos (eram ~110 em 04/11)",
+   "por_que": "Abre com o frasco na mão e a promessa em 5 s, e segura com um caso bem específico (52 anos, marido dormindo no sofá há 3 meses). 11 versões em 2 dias: é o lote que a MenoCare está empurrando agora.",
+   "novo": true,
+   "original": {
+    "hook": "Esse produtinho aqui desperta libido e recupera o casamento na menopausa. E eu vou te explicar por quê.",
+    "estrutura": [
+     "0–5s: frasco na mão, colado na câmera, + a promessa",
+     "5–37s: 'atendo mulheres de 45, 50, 55' + frase-espelho 'amo meu marido, mas a vontade sumiu' + a fuga (dor de cabeça, celular até ele apagar)",
+     "37–56s: caso da paciente de 52 que chorou ('meu marido dorme no sofá há três meses')",
+     "56–90s: animação de anatomia + gráfico 'o que ela voltou a sentir' + champanhe '30 dias depois'",
+     "90–112s: 'pagamento é só na entrega, chegou, confere e paga' + tela final com frasco e botão do WhatsApp"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla",
+    "hook": "Essa gotinha aqui debaixo da língua acende de novo o que a menopausa apagou. E eu vou te explicar por quê.",
+    "roteiro": [
+     "0–5s: Carla pinga a gota na língua olhando pra câmera, frasco na mão",
+     "5–30s: 'Toda mulher de 45, 50, 55 chega na Amanda com a mesma frase: eu amo meu marido, mas a vontade sumiu. Aí você vai dormir mais cedo, fica no celular até ele apagar…'",
+     "30–55s: a Sônia, 52: 'meu marido tá dormindo no sofá faz três meses' (contado pela Carla, sem print)",
+     "55–90s: apagão hormonal: os 3 hormônios caem juntos, é tomada puxada; a gota sublingual absorve 13x mais que cápsula",
+     "90–112s: só no WhatsApp da Amanda (no Mercado Livre e na Shopee é falsificado) e você paga na entrega"
+    ],
+    "cta": "Clica no botão e chama a Amanda no WhatsApp: chegou na tua casa, você confere e só aí paga."
+   },
+   "cuidado": "jaleco ou 'especialista' com cara de médica, paciente chorando como se fosse consultório real, 'recupera o casamento' como garantia e prazo tipo '30 dias depois'."
+  },
+  {
+   "titulo": "Joga no lixo o lubrificante",
+   "marca": "Libidfem",
+   "pagina": "Esp Luana Baron",
+   "link": "https://www.facebook.com/ads/library/?id=1099898836175690",
+   "formato": "Talking head com lista 'joga no lixo' · 2:35",
+   "numeros": "5 versões · no ar desde 19/10 (23 dias) · Esp Luana Baron voltou com 25 anúncios na busca 'menopausa pague na entrega'",
+   "por_que": "O hook ataca o que ela já usa (lubrificante = dor mais devagar) e a lista 'pode jogar no lixo' elimina toda alternativa antes do produto aparecer. 23 dias no ar com 5 versões, e a página voltou a escalar depois de sumir em 02/11.",
+   "novo": true,
+   "original": {
+    "hook": "Toda vez que você passa lubrificante antes da relação, você está pagando para sentir dor mais devagar.",
+    "estrutura": [
+     "0–8s: hook sobre B-roll de mulher passando gel, legenda amarela palavra a palavra",
+     "8–29s: 'sou a Luana' + 'lubrificante pode jogar no lixo, creme hormonal pode jogar no lixo, estimulante pode jogar no lixo: nenhum trata a causa'",
+     "29–46s: a fuga em 2ª pessoa: deita mais cedo, vira de costas, conta os segundos, chora no banheiro",
+     "46–138s: mecanismo com animação de anatomia/circulação + apresentação do produto",
+     "138–155s: escolha 'continuar fingindo ou falar comigo agora' + botão do WhatsApp"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda",
+    "hook": "Lubrificante não resolve a tua secura. Só faz doer mais devagar.",
+    "roteiro": [
+     "0–5s: Amanda (roupa normal, em casa) segura o tubo de gel e solta no lixo",
+     "5–25s: 'Gel: lixo. Creme de hormônio: lixo. Cápsula de farmácia: lixo.' (um objeto cai no lixo a cada frase) 'Nenhum mexe na causa.'",
+     "25–45s: 'Enquanto isso você deita antes dele, vira de costas, inventa dor de cabeça e conta os segundos.'",
+     "45–100s: apagão hormonal: os 3 hormônios caem juntos, tomada puxada; gota sublingual, 13x mais que cápsula",
+     "100–155s: aviso do falsificado no Mercado Livre/Shopee + 'ou você continua fingindo, ou me chama agora'"
+    ],
+    "cta": "Me chama no WhatsApp agora. Você só paga quando a gota chegar na tua casa."
+   },
+   "cuidado": "jaleco com estetoscópio (o original usa), 'especialista em saúde hormonal' com cara de médica, e falar mal de remédio receitado por médico."
+  },
+  {
+   "titulo": "Tentou de tudo, até descobrir isso",
+   "marca": "Candfemm",
+   "pagina": "Júlia Costa - Especialista em Infecções Íntimas",
+   "link": "https://www.facebook.com/ads/library/?id=2578467806007620",
+   "formato": "B-roll com legenda e narração em off · 1:01",
+   "numeros": "9 versões · no ar desde 05/10 (37 dias) · Candfemm subiu 7 anúncios novos em 24h",
+   "por_que": "60 s sem ninguém na frente da câmera, só B-roll + legenda: barato de produzir e roda há 37 dias com 9 versões. A virada 'e ainda devolve sua vontade' puxa a libido pra dentro de uma dor de outra categoria.",
+   "novo": true,
+   "original": {
+    "hook": "Ela tentou de tudo pra sumir com o corrimento e a coceira, até descobrir isso.",
+    "estrutura": [
+     "0–5s: close de mão na barriga + o hook na legenda",
+     "5–21s: as dores em sequência (coceira, corrimento, cheiro, a vontade de ficar perto dele some) sobre B-roll de mulher angustiada",
+     "21–30s: 'já tentou pomada, remédio de farmácia, chá' + mão pegando cápsula",
+     "30–50s: a especialista que criou o produto + o que ele faz + 'sua vontade de volta'",
+     "50–61s: 'pague só quando chegar na sua porta' + clique abaixo"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Sônia",
+    "hook": "Ela tentou de tudo pra acabar com a secura e a falta de vontade, até descobrir isso.",
+    "roteiro": [
+     "0–5s: close da Sônia sentada na beira da cama, mão no rosto, legenda grande",
+     "5–20s: 'Se você já sentiu a ardência na hora H, a secura que gel nenhum resolve e a vontade de ficar perto dele sumindo…'",
+     "20–30s: 'Você já tentou gel, chá, cápsula de farmácia, e nada.'",
+     "30–48s: a gota debaixo da língua: apagão hormonal, os 3 hormônios caem juntos; 13x mais que cápsula",
+     "48–60s: 'pede pela Amanda no WhatsApp e paga quando chegar na tua porta'"
+    ],
+    "cta": "Clica abaixo, fala com a Amanda e só paga quando a gota chegar na tua porta."
+   },
+   "cuidado": "'elimina o fungo', 'acaba com', 'devolve sua libido' como garantia (promessa de cura) e figurino de enfermeira/médica pra quem 'criou' o produto."
+  }
+ ],
+ "mudou": [
+  "VSL longa agora vende com 'PAGUE SOMENTE NA ENTREGA' na copy: a Dra Flavia trocou as VSLs de 'avaliação gratuita' por 5 novas hoje (mesma copy em 5 durações, de 1:04 a 11:51) e o Dr Alexandre Castro subiu 10 VSLs numeradas '31–34 - Pague somente na Entrega' em 10–11/11.",
+  "Libidiflora relançou o roteiro 'Esqueça lubrificantes e hormônios' em ~15 anúncios novos em 24h nas páginas Dr Patrícia Almeida e DR Patricia Gomes (2:48 a 4:07, pague na entrega): o roteiro de 03/11 segue vivo e ganhou lote novo.",
+  "Desde a última leitura (04/11): Candfemm dobrou (~66 → ~140 anúncios) espalhando os mesmos vídeos por ~27 páginas 'Especialista + nome', com 7 novos só em 24h."
+ ],
+ "arquivo": [
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 11/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente. Última leitura anterior: 04/11/2026."
+}
