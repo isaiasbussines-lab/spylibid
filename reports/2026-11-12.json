@@ -1,0 +1,155 @@
+{
+ "versao": 2,
+ "data": "12/11/2026",
+ "gerado_em": "12/11/2026 13:08",
+ "manchete": "Grave hoje: a resposta pra \"já tomei cápsula e não adiantou\", com uma segunda pessoa na tela fazendo a pergunta",
+ "padrao": "2 dos 3 viram o jogo em cima da desconfiança dela (\"suplemento de farmácia não funciona\", \"que milagre é esse?\") e respondem com o produto na mão. E 2 dos 3 põem uma segunda pessoa na tela (o filho que filma a mãe, a mulher que pergunta) pra prova não vir só de quem vende. Os 3 estão no ar há 36 a 160 dias.",
+ "modelar": [
+  {
+   "titulo": "O filho filmando a mãe: dia 1 e depois",
+   "marca": "MenoCare",
+   "pagina": "Esp. Helena Monteiro",
+   "link": "https://www.facebook.com/ads/library/?id=1818616942721708",
+   "formato": "Depoimento em família (filho + mãe) · 2:02",
+   "numeros": "3 versões neste anúncio · mesma copy em 10 anúncios (12 versões) na busca MenoCare · grupo no ar desde 07/10 (36 dias)",
+   "por_que": "A prova vem de fora: o filho mostra a mãe emburrada no dia 1 e sorrindo depois (\"meu pai tá ganhando até beijinho\"), e só então ela fala dos sintomas. A MenoCare mantém essa copy rodando há 36 dias em 10 anúncios.",
+   "novo": true,
+   "original": {
+    "hook": "Essa é a minha mãe, ela tem 51 anos e ela vive estressada aqui em casa.",
+    "estrutura": [
+     "0–14s: selfie do filho na cozinha com a mãe de cara fechada atrás; tarja fixa \"A menopausa estava acabando com a minha mãe\"; \"hoje é o primeiro dia usando\"",
+     "14–27s: corte pro \"depois\": mesma selfie, mãe sorrindo; \"voltou a sorrir… meu pai agora tá ganhando até beijinho\"",
+     "27–95s: a mãe sozinha no sofá conta a história: fogacho, acorda encharcada, ressecamento estragando o casamento",
+     "~97s: pote na mão, olhando pra câmera",
+     "110–122s: \"vai tirar todas as suas dúvidas\" + \"receba agora sua consulta gratuita\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Sônia (cliente) + o filho dela",
+    "hook": "A menopausa tava acabando com a minha mãe. E com o casamento dela.",
+    "roteiro": [
+     "0–8s: filho em selfie na cozinha, Sônia de cara fechada atrás: \"Essa é a Sônia, minha mãe. Qualquer coisinha tira ela do sério, principalmente com o meu pai. Hoje ela começou a gotinha.\"",
+     "8–18s: corte, mesma cozinha, Sônia rindo e abraçando o marido: \"Olha a cara dela agora. Meu pai tá até ganhando beijo.\"",
+     "18–50s: Sônia no sofá, falando com você: \"Se você acorda encharcada, foge do teu marido na cama e acha que o problema é você: não é. É o apagão hormonal. Os 3 hormônios caem juntos, é tomada puxada.\"",
+     "50–65s: gota debaixo da língua: \"É sublingual, absorve 13x mais que cápsula.\" + \"Só não compra no Mercado Livre ou na Shopee, tá cheio de falsificado.\""
+    ],
+    "cta": "Chama a Amanda no WhatsApp: ela te explica tudo e você só paga quando chegar na tua casa."
+   },
+   "cuidado": "Não mostrar aparelho de pressão como prova médica, não prometer \"em 30 dias\", não usar \"consulta gratuita\" com especialista inventada; nada de \"Dra.\" nem jaleco."
+  },
+  {
+   "titulo": "Suplemento de farmácia não resolve",
+   "marca": "Menopausa Cancelada (Shot da Libido)",
+   "pagina": "Menopausa Cancelada",
+   "link": "https://www.facebook.com/ads/library/?id=1584380816605970",
+   "formato": "Talking head com os potes na mesa · 2:34",
+   "numeros": "4 versões · no ar desde 12/08 (92 dias) · mesmo criativo segue ativo com a promoção de 50% OFF rodando em paralelo (10/11)",
+   "por_que": "Começa atacando o que ela já comprou e não funcionou (\"suplemento da sua cidade\", colágeno e ômega de farmácia) e só depois mostra o produto. 92 dias no ar com 4 versões: é a peça de fundo da marca.",
+   "novo": true,
+   "original": {
+    "hook": "O problema de você comprar um suplemento ali na sua cidade, um colágeno ali na sua cidade, não vai ser dessa qualidade.",
+    "estrutura": [
+     "0–15s: dona da marca na bancada, potes na frente, ataca o suplemento de farmácia (matéria-prima e quantidade de ativo)",
+     "15–45s: compara colágeno e ômega 3 \"de farmácia\" com o dela (concentração, \"2 cápsulas\")",
+     "45–135s: passa pote por pote da linha, um sintoma por produto",
+     "138–145s: fecha no Shot da Libido pra ressecamento e atrofia: \"essa vida vai ser outra\"",
+     "145–154s: card final \"Comente EU QUERO ou clique no link da bio\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla (coroa radiante)",
+    "hook": "Se você já tomou cápsula pra menopausa e não sentiu nada, a culpa não é tua.",
+    "roteiro": [
+     "0–5s: Carla com uma cápsula numa mão e o frasco da gota na outra",
+     "5–20s: \"Cápsula passa pelo estômago e chega quase nada no teu sangue. Por isso você toma 3 meses e nada muda.\"",
+     "20–35s: \"Gota debaixo da língua vai direto: absorve 13x mais que cápsula.\"",
+     "35–50s: \"E na menopausa não cai um hormônio só. É o apagão hormonal: os 3 caem juntos, é tomada puxada. Remédio pra um sintoma só não resolve.\"",
+     "50–60s: \"Viu barato no Mercado Livre ou na Shopee? É falsificado.\""
+    ],
+    "cta": "Clica, fala com a Amanda no WhatsApp e paga só na entrega."
+   },
+   "cuidado": "Não citar marca de concorrente nem falar de um produto específico; não dizer \"sem contraindicação\"; não prometer prazo."
+  },
+  {
+   "titulo": "\"Tá, doutor, mas que milagre é esse?\"",
+   "marca": "Fito Femme",
+   "pagina": "Loja FitoEssência",
+   "link": "https://www.facebook.com/ads/library/?id=2768109460235534",
+   "formato": "Especialista + mulher ouvindo (tela dividida) · 0:49",
+   "numeros": "4 versões · no ar desde 05/06 (160 dias) · mesma copy em 2 páginas (5 versões)",
+   "por_que": "Em 49 segundos lista os sintomas, deixa a própria cliente fazer a objeção em voz alta (\"que milagre é esse?\") e responde com o produto na mesa. 160 dias no ar: é o criativo curto mais velho do radar ainda rodando.",
+   "novo": true,
+   "original": {
+    "hook": "Você, mulher, que na menopausa viu a sua vida indo ribanceira abaixo",
+    "estrutura": [
+     "0–5s: tela dividida, especialista falando em cima e mulher ouvindo embaixo; tarja \"Mulher, está sofrendo na menopausa?\"",
+     "5–27s: lista calorão, extremidades frias, queda de cabelo, engorda e emagrece; \"o corpo não tem mais o hormônio que te ajuda\"",
+     "27–35s: objeção em off: \"Tá, doutor, mas que milagre é isso?\" → \"Não é milagre, é tecnologia\"",
+     "35–45s: frasco na mesa, \"só plantas\"",
+     "45–49s: \"E onde eu acho?\" → \"clicando aqui, saiba mais\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (especialista no WhatsApp) + Sônia",
+    "hook": "Você, mulher, que depois dos 45 viu a vida desandar ladeira abaixo:",
+    "roteiro": [
+     "0–5s: tela dividida, Amanda falando em cima, Sônia ouvindo embaixo; tarja \"Sente que a menopausa te apagou?\"",
+     "5–20s: \"Calorão, secura, vontade zero, acorda às 3 da manhã… isso é o apagão hormonal: os 3 hormônios caem juntos, é tomada puxada.\"",
+     "20–30s: Sônia: \"Tá, Amanda, mas que milagre é esse?\" Amanda: \"Milagre nenhum: é gota debaixo da língua, absorve 13x mais que cápsula.\"",
+     "30–40s: \"Só não compra no Mercado Livre nem na Shopee: tá cheio de falsificado.\"",
+     "40–49s: Sônia: \"E onde eu acho o original?\""
+    ],
+    "cta": "Toca no botão, fala comigo no WhatsApp e você só paga na entrega."
+   },
+   "cuidado": "Não usar \"doutor\", jaleco ou médico; não falar em \"modulação hormonal\" (soa tratamento); não prometer prazo."
+  }
+ ],
+ "mudou": [
+  "Libidiflora está clonando o vencedor em página nova: \"Especialista Roberto Alves\" estreou com 13 anúncios em 11/11 (vídeos de 2:39 a 2:50), o mesmo criativo que tem 29 versões na Medical Clinic. Roteiro novo, nenhum.",
+  "Femme+ testa depoimento em 1ª pessoa como VSL longa: 5 vídeos de 10:43 a 12:24 em 11–12/11 na Dra Camila Calegari, todos com a copy \"Amigas, quero compartilhar com vocês! Conheci o FEMME…\".",
+  "Dr Alexandre Castro encolheu de ~49 pra ~10 anúncios: sobraram só as VSLs \"31–34 - Pague somente na Entrega\" (4:44 a 5:33), com 1 nova em 11/11."
+ ],
+ "arquivo": [
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 12/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente."
+}
