@@ -1,0 +1,158 @@
+{
+ "versao": 2,
+ "data": "13/11/2026",
+ "gerado_em": "13/11/2026 13:20",
+ "manchete": "Grave hoje: tela dividida — você falando em cima, embaixo o B-roll do que ela já tentou, e a gota como a saída entre o chá fraco e o hormônio que engorda.",
+ "padrao": "2 dos 3 abrem com a tela dividida (quem fala em cima, B-roll embaixo, tarja no meio) e vendem a gota como terceira via: nem o caseiro fraco (chá, gel, terapia) nem o remédio forte que engorda. O produto só aparece depois dos 40 segundos.",
+ "modelar": [
+  {
+   "titulo": "Pílula azul pra ele, terapia pra você",
+   "marca": "Libidiflora",
+   "pagina": "Dr Patrícia Almeida",
+   "link": "https://www.facebook.com/ads/library/?id=2518087088677924",
+   "formato": "Tela dividida + talking head de jaleco · 3:29",
+   "numeros": "3 versões · no ar desde 15/10 (29 dias) · mesma copy em 22 anúncios (2 páginas) · 18 deles começaram em 12–13/11",
+   "por_que": "Abre com uma cliente comum dizendo a frase que ela ouviu a vida toda, e logo joga a injustiça na cara: homem ganha comprimido em 30 min, mulher ganha terapia e hormônio que engorda. É a VSL que a Libidiflora está clonando hoje: 18 cópias novas em 2 dias.",
+   "novo": true,
+   "original": {
+    "hook": "Você ressecou porque ficou velha. Foi o que eu ouvi por anos.",
+    "estrutura": [
+     "0–8s: tela dividida — cliente na cozinha em cima, embaixo anatomia ressecada, gel K-Y e mulher chorando no banheiro; tarja palavra a palavra",
+     "8–30s: comparação: homem de 55 ganha a 'pílula azul' em 30 min; mulher de 50 ganha terapia ou reposição que engorda",
+     "30–42s: promessa: 'fica até o final que eu te mostro o protocolo natural'; 'seu corpo não esfriou, foi sequestrado'",
+     "42s–3:00: 'Patrícia' de jaleco sentada, frasco na mesa, explica o mecanismo (nutrientes cortados na menopausa)",
+     "3:00–3:29: pague na entrega, 'fale comigo no WhatsApp'"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Sônia (cliente) abre, Amanda fecha",
+    "hook": "Você secou porque ficou velha? Foi isso que me falaram por 5 anos.",
+    "roteiro": [
+     "0–8s: tela dividida — Sônia na cozinha em cima; embaixo B-roll do gel de farmácia, do lençol virado pro lado e dela sentada no banheiro; tarja palavra a palavra",
+     "8–25s: Sônia: 'Homem perde a ereção e ganha um comprimido em meia hora. Você perde o desejo e te mandam relaxar. Que piada é essa?'",
+     "25–60s: Amanda (sem jaleco): 'Teu corpo não esfriou: deu apagão hormonal. Os 3 hormônios caem juntos, é tomada puxada.' Gota debaixo da língua: 13x mais que cápsula",
+     "60–80s: aviso: 'Tem falsificado no Mercado Livre e na Shopee. Original só pelo WhatsApp da Amanda.'"
+    ],
+    "cta": "Clica no botão, fala com a Amanda no WhatsApp e só paga quando a gota chegar na tua mão."
+   },
+   "cuidado": "Jaleco, 'Dra.' e 'protocolo' de médica; anatomia íntima explícita (reprova na Meta); 'pílula azul' com nome de remédio; promessa de prazo."
+  },
+  {
+   "titulo": "Oferta relâmpago com o frasco na mão",
+   "marca": "Composto Meno",
+   "pagina": "Always FIT - Saúde, Longevidade e Autoestima",
+   "link": "https://www.facebook.com/ads/library/?id=1758788261800912",
+   "formato": "Produto na mão, sem rosto · 0:16",
+   "numeros": "3 versões · no ar desde 10/08 (95 dias) · a copy dele roda em 60 anúncios / 75 versões em 2 páginas",
+   "por_que": "16 segundos, sem rosto: só uma mão com unha vermelha girando o frasco conta-gotas, tarja 'OFERTA RELÂMPAGO' e narração de urgência. Está no ar há 95 dias, o que prova que um vídeo barato de produto segura escala sozinho.",
+   "novo": true,
+   "original": {
+    "hook": "Oferta relâmpago, eu falei oferta relâmpago.",
+    "estrutura": [
+     "0–3s: mão com unha vermelha balança o frasco conta-gotas na frente da câmera, tarja vermelha 'OFERTA RELÂMPAGO'",
+     "3–8s: vira o frasco e mostra o rótulo; voz: 'é o viral do TikTok'",
+     "8–12s: 'corre porque o estoque é limitado'",
+     "12–16s: tela preta com a marca e seta animada apontando pro botão"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Mão da Carla (sem rosto)",
+    "hook": "Oferta relâmpago: a gota que tá religando as mulheres de 40.",
+    "roteiro": [
+     "0–3s: mão de unha feita gira o frasco LibidLizze sobre a mesa de madeira, tarja vermelha 'OFERTA RELÂMPAGO'",
+     "3–7s: pinga a gota na ponta do dedo; voz: 'Debaixo da língua: 13x mais que cápsula.'",
+     "7–11s: 'Lote liberado hoje e você só paga quando chegar.'",
+     "11–15s: tela escura, seta pro botão, tarja 'Fala com a Amanda'"
+    ],
+    "cta": "Toca no botão e garante o teu com a Amanda antes do lote acabar: paga na entrega."
+   },
+   "cuidado": "'Viral do TikTok' se não for verdade; estoque limitado falso; mostrar rótulo de outra marca."
+  },
+  {
+   "titulo": "Presa entre o chá fraco e o remédio forte",
+   "marca": "Serenar",
+   "pagina": "Verbesen",
+   "link": "https://www.facebook.com/ads/library/?id=1074728272212885",
+   "formato": "Talking head com B-roll em tela dividida · 2:56",
+   "numeros": "2 versões · no ar desde 25/08 (80 dias) · 3 anúncios com a mesma copy",
+   "por_que": "O hook lista tudo que ela já tentou (chá de amora, cápsula de soja, inhame) enquanto o B-roll embaixo mostra o chá sendo coado, e vira com 'a culpa não é sua: você ficou presa entre duas opções ruins'. 80 dias rodando com o mesmo vídeo.",
+   "novo": true,
+   "original": {
+    "hook": "Você já tomou litros de chá de amora, comprou cápsula de soja na farmácia e comeu inhame, e o calorão continua aí?",
+    "estrutura": [
+     "0–8s: especialista de óculos em cima, embaixo folhas de amora e chá sendo coado; tarja 'APENAS ISSO RESOLVE O SEU CALORÃO'",
+     "8–30s: 'Pare de insistir no que é fraco' + empatia: 'dá vontade de chutar o balde'",
+     "30–46s: 'A culpa não é sua': presa entre chá fraco demais e remédio forte com efeito colateral",
+     "46s–1:30: mecanismo e o pote do produto aparece (1:28)",
+     "2:20–2:56: futuro sem calorão e barriga murchando, condição especial pra comprar"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (especialista no WhatsApp)",
+    "hook": "Você já gastou com chá de amora, cápsula de farmácia e gel, e o fogo continua apagado?",
+    "roteiro": [
+     "0–8s: Amanda em cima; embaixo chá coado, cartela de cápsula e gel no lixo; tarja 'NADA DISSO RELIGA O TEU DESEJO'",
+     "8–25s: 'A culpa não é tua. Te deixaram presa entre o chá fraco e o hormônio que engorda.'",
+     "25–60s: apagão hormonal: os 3 hormônios caem juntos, tomada puxada. Gota sublingual: 13x mais que cápsula",
+     "60–80s: Sônia em 1 frase: 'voltei a procurar meu marido'",
+     "80–100s: aviso de falsificado no Mercado Livre/Shopee"
+    ],
+    "cta": "Toca no botão, fala com a Amanda no WhatsApp e paga só na entrega."
+   },
+   "cuidado": "'Eliminar os sintomas', 'em poucas semanas', 'barriga murchando' (promessa com prazo); citar remédio por nome; especialista com cara de médica."
+  }
+ ],
+ "mudou": [
+  "Libidiflora clonou a VSL 'Volte a se sentir desejada' em 18 anúncios novos na página Dr Patrícia Almeida em 12–13/11, cortes de 2:51 a 4:06: estão escalando por cópia de VSL, não por criativo novo.",
+  "A página 'Helena -Especialista' (mesmo nome das páginas do MenoCare) subiu 7 vídeos de 1:35 hoje, todos com 'Chega de sofrer com a menopausa! Receba em casa e pague só na entrega'.",
+  "Ângulo novo: a página 'Maria Andrade' lançou 10 estáticos em 12–13/11 narrados pelo marido ('Minha mulher dormia com três travesseiros debaixo das pernas…')."
+ ],
+ "arquivo": [
+  {
+   "data": "13/11/2026",
+   "href": "reports/2026-11-13.html",
+   "resumo": "pílula azul, oferta relâmpago, chá fraco"
+  },
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 13/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente. Rodada começou às 12h57 (atrasada); Libidfem contado pelas varreduras."
+}
