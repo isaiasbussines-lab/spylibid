@@ -1,0 +1,164 @@
+{
+ "versao": 2,
+ "data": "14/11/2026",
+ "gerado_em": "14/11/2026 11:45",
+ "manchete": "Grave hoje: abre jogando fora o que ela já usa (lubrificante, pomada, absorvente) e só depois mostra a gota.",
+ "padrao": "2 dos 3 escalados gastam os primeiros segundos descartando o que a mulher já tentou (o lubrificante escorrendo, o absorvente e a pomada indo pro lixo) antes de aparecer qualquer produto. O terceiro é estático de antes/depois com a mesma ideia: \"não precisa ser assim\". Os 3 fecham no WhatsApp.",
+ "modelar": [
+  {
+   "titulo": "Absorvente e pomada no lixo",
+   "marca": "Candfemm",
+   "pagina": "Fernanda/ Crescimento Capilar",
+   "link": "https://www.facebook.com/ads/library/?id=1800504754588396",
+   "formato": "Produto na mão, sem rosto, só tarja e música · 0:15",
+   "numeros": "12 versões · no ar desde 06/11 (8 dias) · em 13/11 subiram o mesmo vídeo de novo, com mais 12 versões (2315686462544118)",
+   "por_que": "Em 15 segundos ele mostra 3 coisas indo pro lixo e termina numa prova que dá pra ver (a calcinha seca), sem ninguém falar nada. Pra ser relançado com 12 versões em 7 dias, tem que estar convertendo.",
+   "novo": true,
+   "original": {
+    "hook": "Não precisar mais de absorvente diário",
+    "estrutura": [
+     "0–3s: mão joga o pacote de absorvente diário na lixeira (tarja: \"Não precisar mais de absorvente diário\")",
+     "3–7s: caixa de remédio genérico vai pro lixo (\"Nem de remédios que não funcionam\")",
+     "7–11s: prateleira da farmácia, mão tira pomada (\"E pomadas caras, aplicadores e banho de assento\")",
+     "11–15s: calcinha seca aberta na mão (\"Ter essa calcinha sequinha não tem preço\") + copy leva pro WhatsApp"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Sônia (cliente), só as mãos",
+    "hook": "Não precisar mais do lubrificante escondido na gaveta",
+    "roteiro": [
+     "0–3s: a mão tira o lubrificante da gaveta da cabeceira e joga no lixo (tarja: \"Não precisar mais do lubrificante escondido\")",
+     "3–6s: gel e cápsula de farmácia indo pro lixo (\"Nem de cápsula que o teu corpo nem absorve\")",
+     "6–10s: corredor da farmácia (\"Nem de hormônio que você tem medo de tomar\")",
+     "10–15s: frasco de LibidLizze na mão, 1 gota embaixo da língua (\"Uma gota. Os 3 hormônios acordando juntos.\")"
+    ],
+    "cta": "Fala com a Amanda no WhatsApp e paga só quando chegar na tua casa."
+   },
+   "cuidado": "Não prometer prazo (\"em X dias\") nem \"cura\"; não mostrar marca real de remédio ou lubrificante em close (borre o rótulo)."
+  },
+  {
+   "titulo": "Menopausa não precisa ser assim",
+   "marca": "MenoCare",
+   "pagina": "Helena - Especialista Menocare",
+   "link": "https://www.facebook.com/ads/library/?id=1070336005585579",
+   "formato": "Estático antes/depois (mesma mulher triste × radiante) + pote no centro",
+   "numeros": "4 versões · no ar desde 11/09 (64 dias) · irmão 2483619675468646 com a mesma arte (\"Continuar ASSIM vai te custar muito caro\") tem 3 versões desde 23/09",
+   "por_que": "É o estático mais antigo ainda no ar do MenoCare: 2 meses rodando e virou duas artes. Funciona porque a mulher se reconhece no lado triste antes de ler qualquer coisa, e a faixa de baixo já resolve a objeção: pague na entrega, 12x, frete grátis.",
+   "novo": true,
+   "original": {
+    "hook": "Menopausa não precisa ser ASSIM.",
+    "estrutura": [
+     "Topo: título gigante \"Menopausa não precisa ser ASSIM.\" + \"Você merece se sentir bem todos os dias novamente\"",
+     "Esquerda: 4 fotos da mesma mulher com a mão na testa, calor, cansaço",
+     "Direita: 4 fotos dela sorrindo, leve",
+     "Centro: pote com laranja moro e brilho; embaixo, 6 ícones de benefício (sono, energia, humor, libido…)",
+     "Rodapé: frete grátis · pagamento na entrega · 12x · \"Fale agora com a Especialista! Pague somente na entrega\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla (coroa radiante)",
+    "hook": "Menopausa não precisa ser apagão.",
+    "roteiro": [
+     "Topo: \"Menopausa não precisa ser APAGÃO.\" / \"Você não secou. Teus 3 hormônios caíram juntos.\"",
+     "Esquerda: Carla apagada (fio da tomada puxado em ícone, cama, rosto cansado)",
+     "Direita: Carla acesa, rindo, de mãos dadas com o marido",
+     "Centro: frasco conta-gotas LibidLizze + \"1 gota sublingual · 13x mais absorção que cápsula\"",
+     "Rodapé: pague na entrega · fale com a Amanda no WhatsApp · \"Cuidado com falsificado no Mercado Livre/Shopee\""
+    ],
+    "cta": "Toque no botão e fale com a Amanda: você só paga quando o frasco chegar."
+   },
+   "cuidado": "Não usar foto de pessoa real como antes/depois de resultado; pode ser a mesma modelo encenando. Nada de \"Dra.\" na página nem no texto."
+  },
+  {
+   "titulo": "Esqueça lubrificantes e hormônios",
+   "marca": "Libidiflora",
+   "pagina": "Medical Clinic",
+   "link": "https://www.facebook.com/ads/library/?id=986682811139863",
+   "formato": "Talking head + animação 3D de anatomia · 2:48",
+   "numeros": "15 versões · no ar desde 16/10 (29 dias) · em 13/11 a mesma página subiu mais 6 vídeos de 2:55 a 4:07 nesse formato, sem copy nenhuma",
+   "por_que": "Em 2 segundos ela dá a ordem (\"esqueça\") enquanto o lubrificante escorre na mão, e logo em seguida ameaça com o divórcio. É a VSL de base da operação: um mês no ar e virou molde pra mais 6 vídeos ontem.",
+   "repetido": "já saiu em 03/11; voltou com 6 vídeos irmãos ontem",
+   "original": {
+    "hook": "Esqueça lubrificantes e hormônios.",
+    "estrutura": [
+     "0–2s: ela espreme um tubo de lubrificante que escorre na mão (\"Esqueça lubrificantes e hormônios\")",
+     "2–19s: promessa + medo: ressecamento \"não é fase nem estresse\", é \"aviso silencioso\" de divórcio",
+     "19–46s: apresenta a \"especialista\" e lista o que a mulher faz pra fugir da cama (desculpa de dor de cabeça, culpa, \"frígida\")",
+     "46s–2:30: mecanismo com animação 3D da vagina/útero, frasco na mão, cena de casal",
+     "2:30–2:48: pague na entrega + \"Não deixe o seu casamento acabar por orgulho. Chama agora.\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (especialista, sem jaleco)",
+    "hook": "Esquece lubrificante. Esquece hormônio. Teu problema não é falta de vontade.",
+    "roteiro": [
+     "0–3s: Amanda aperta o tubo de lubrificante, ele escorre e ela joga fora (\"Esquece lubrificante. Esquece hormônio.\")",
+     "3–15s: \"Você não ficou fria. Teus 3 hormônios caíram juntos: é um apagão, como uma tomada puxada.\"",
+     "15–40s: o que você faz pra fugir: a desculpa da dor de cabeça, dormir antes dele, o lubrificante escondido",
+     "40–70s: a gota sublingual entra direto no sangue (13x mais que cápsula) + aviso de falsificado no Mercado Livre/Shopee",
+     "70–90s: \"Não deixa o orgulho apagar teu casamento.\""
+    ],
+    "cta": "Chama a Amanda no WhatsApp agora e paga só na entrega."
+   },
+   "cuidado": "Não copiar: jaleco e \"Dra.\", \"molhar igual aos 18 anos em 2 semanas\" (promessa com prazo), \"sem médico\", ameaça de divórcio com prazo (\"6 meses\"), close de anatomia explícita."
+  }
+ ],
+ "mudou": [
+  "FloraBe (página Laura Nascimento) subiu 21 estáticos novos em 13–14/11, todos textão em 1ª pessoa estilo relato (\"Passei 8 anos usando lubrificante escondida…\", \"Depois da minha histerectomia…\"): saiu do probiótico e entrou em ressecamento e libido.",
+  "Libidiflora abriu uma 2ª página pra VSL (Medical Clinic): 6 vídeos de 2:55 a 4:07 em 13/11 sem nenhuma linha de copy. Quem vende é só o vídeo.",
+  "Libidfem (Esp Luana Baron) subiu hoje um ângulo novo: \"O calor da menopausa passou, mas a secura ficou?\", pra pegar a mulher que já passou dos fogachos."
+ ],
+ "arquivo": [
+  {
+   "data": "14/11/2026",
+   "href": "reports/2026-11-14.html",
+   "resumo": "absorvente no lixo, não precisa ser assim, esqueça lubrificante"
+  },
+  {
+   "data": "13/11/2026",
+   "href": "reports/2026-11-13.html",
+   "resumo": "pílula azul, oferta relâmpago, chá fraco"
+  },
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 14/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente. Comparação com a leitura de 13/11; novos = anúncios iniciados em 13 ou 14/11."
+}
