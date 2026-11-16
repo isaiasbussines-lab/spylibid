@@ -1,0 +1,171 @@
+{
+ "versao": 2,
+ "data": "16/11/2026",
+ "gerado_em": "16/11/2026 09:09",
+ "manchete": "Grave hoje: a Carla respondendo 'qual o teu segredo aos 56?'. Quem abre é a cliente, a Amanda só entra no fim.",
+ "padrao": "2 dos 3 escalados não abrem com quem vende: abre a cliente de 56 anos respondendo a pergunta das seguidoras, ou o casal lado a lado, e a especialista só entra depois. E os 3 derrubam uma crença antes do produto: 'não é idade', 'não adianta gel', 'suplemento comum passa reto'.",
+ "modelar": [
+  {
+   "titulo": "Qual teu segredo aos 56?",
+   "marca": "MenoCare",
+   "pagina": "Especialista Helena",
+   "link": "https://www.facebook.com/ads/library/?id=1130082496154023",
+   "formato": "UGC respondendo caixinha de perguntas · 1:25",
+   "numeros": "7 versões · no ar desde 10/11 (6 dias) · a mesma copy roda em mais 2 criativos com 8 versões cada (2421190225084429 e 1759953682500837): 23 versões em 6 dias",
+   "por_que": "Quem abre não é a vendedora: é uma cliente de 56 anos respondendo a pergunta que todo mundo faz, e a especialista só aparece no fim como quem 'ajudou com tudo'. A copy dessa leva somou 23 versões em menos de uma semana.",
+   "novo": true,
+   "original": {
+    "hook": "As mulheres estão me perguntando como eu tô com tanta energia, mesmo já tendo 56 anos.",
+    "estrutura": [
+     "0–6s: tarja de caixinha do Instagram (\"você tem 56 anos? qual seu segredo???\") + ela lendo e rindo",
+     "6–27s: o antes: acordava cansada, barriga inchada, peso subindo, e com o marido 'a gente mal se tocava… doía também'",
+     "27–54s: uma seguidora indicou; derruba a crença: 'a maioria dos suplementos passa pelo corpo e vai embora'",
+     "54–72s: natural + resultado (secura passou, desejo voltou)",
+     "72–85s: 'falei com a Helena… só paguei depois da entrega. Clica no botão'"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla (coroa radiante)",
+    "hook": "Toda semana alguém me pergunta como eu tenho esse pique com 56. Hoje eu conto.",
+    "roteiro": [
+     "0–5s: Carla lendo o celular e rindo; tarja de título: 'A pergunta que mais chega: qual o teu segredo?'",
+     "5–20s: 'Um ano atrás eu era outra: acordava moída, barriga estufada… e quando meu marido chegava perto, eu fugia. Doía.'",
+     "20–40s: 'Não era idade. Era apagão hormonal: os 3 hormônios caindo juntos, como se tivessem puxado a tomada.'",
+     "40–60s: pinga a gota embaixo da língua na câmera: 'Cápsula você engole e o estômago come quase tudo. Embaixo da língua chega até 13x mais.'",
+     "60–75s: 'Só compra com a Amanda: no Mercado Livre e na Shopee tá cheio de falsificado. E você só paga quando chegar na tua mão.'"
+    ],
+    "cta": "Clica no botão e chama a Amanda no WhatsApp: fala que veio pela Carla."
+   },
+   "cuidado": "Não montar print falso de caixinha/mensagem de seguidora (usar tarja de título). Nada de 'sem contraindicação', 'pode tomar com pressão alta ou diabetes', 'em menos de 30 dias' nem '9 vezes mais rápido'."
+  },
+  {
+   "titulo": "O casal abre, a especialista fecha",
+   "marca": "Libidiflora",
+   "pagina": "Dr Patrícia Almeida",
+   "link": "https://www.facebook.com/ads/library/?id=1472222248097723",
+   "formato": "Sanduíche: casal abre + especialista explica · 3:13",
+   "numeros": "5 versões · no ar desde 29/09 (48 dias) · o mesmo vídeo roda em mais 2 anúncios da página (1424100129853303 com 3 versões e 1113065677874122) e a copy soma 12 versões na varredura",
+   "por_que": "Os 9 primeiros segundos são um casal real lado a lado: a mulher fala a dor e aponta pra especialista, o marido do lado vira prova social silenciosa. Tá no ar há 48 dias e o vídeo foi duplicado em 3 anúncios.",
+   "novo": true,
+   "original": {
+    "hook": "Se você sente dor para fazer sexo com o seu marido, não adianta usar gel.",
+    "estrutura": [
+     "0–9s: casal lado a lado; ela fala o hook e aponta: 'a única solução é seguir o que essa doutora fala'",
+     "9–43s: especialista de jaleco derruba a crença: 'te disseram que dor na menopausa é normal e te mandaram comprar lubrificante'",
+     "43–92s: dor vívida: deita de costas pro marido, roupa grossa no calor pra evitar o momento, autoestima no lixo",
+     "92–155s: mecanismo + frasco na mão ('o corpo volta a produzir a própria lubrificação')",
+     "155–193s: entregador na porta, paga só na entrega, 'chama a Patrícia no WhatsApp'"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Sônia (cliente) com o marido + Amanda",
+    "hook": "Se dói quando teu marido chega perto, não é de gel que você precisa.",
+    "roteiro": [
+     "0–8s: Sônia e o marido no sofá; ela fala o hook, ele concorda com a cabeça; ela aponta: 'quem resolveu isso aqui foi a Amanda'",
+     "8–35s: Amanda (roupa normal, sem jaleco): 'Te disseram que é normal da idade e te mandaram pro lubrificante. Lubrificante é maquiagem. O nome disso é apagão hormonal.'",
+     "35–70s: 'Você deita de costas, inventa cansaço, veste pijama de manga no calor só pra ele não chegar perto… e se culpa.'",
+     "70–110s: gota na mão: 'Embaixo da língua, até 13x mais que cápsula. É o teu corpo voltando a fazer a parte dele.'",
+     "110–140s: entregador na porta: 'Você só paga quando a caixa tá na tua mão. E foge do Mercado Livre e da Shopee: tem frasco falsificado.'"
+    ],
+    "cta": "Chama a Amanda no WhatsApp aqui embaixo e volta a querer o teu marido."
+   },
+   "cuidado": "Sem jaleco, 'Dra.' ou 'teu médico mentiu'. Nada de 'força o corpo a produzir fluido', 'pare de sangrar na cama' nem descrição sexual gráfica."
+  },
+  {
+   "titulo": "Não é idade, tem nome",
+   "marca": "Vital Femme",
+   "pagina": "Nutri fácil",
+   "link": "https://www.facebook.com/ads/library/?id=2846815589051769",
+   "formato": "Talking head no carro · 6:58 (fala até ~5:30)",
+   "numeros": "2 versões · no ar desde 11/08 (97 dias) · a página roda 10 anúncios com essa copy, 13 versões somadas, todos subidos entre 11 e 14/08 e ainda ativos",
+   "por_que": "Abre com curiosidade pura ('tem nome médico e não é idade') e faz a mulher responder um checklist de sintomas de cabeça antes de qualquer produto. Ficar 97 dias no ar com o mesmo criativo é prova de que paga a conta.",
+   "novo": true,
+   "original": {
+    "hook": "Você sabia que a queda do desejo depois de 45 tem uma causa com nome médico e não é só coisa da idade? Eu vou te contar qual é.",
+    "estrutura": [
+     "0–22s: hook + aposta ('se não fizer diferença, eu fecho meu consultório')",
+     "22–36s: se apresenta como quem atende só mulher na menopausa",
+     "36–70s: 'responde mentalmente': engordou depois dos 45 sem mudar nada, barriga, cabelo afinando",
+     "1:10–3:27: explica a causa (trecho do meio não transcrito inteiro)",
+     "3:27–5:30: o depois (roupa parada no armário, foto sem procurar ângulo, desejo voltando) + CTA pro WhatsApp do especialista"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (no carro, câmera na mão)",
+    "hook": "O teu desejo não foi embora por causa da idade. Isso tem nome, e eu vou te contar.",
+    "roteiro": [
+     "0–15s: Amanda de cinto, no carro: hook + 'Responde só pra você: engordou depois dos 45 sem mudar nada? Barriga que não sai, cabelo afinando… e a vontade sumiu?'",
+     "15–60s: 'Isso se chama apagão hormonal: os 3 hormônios caem juntos, igual puxar a tomada da casa inteira. Por isso apaga tudo ao mesmo tempo.'",
+     "60–120s: 'Por isso chá e cápsula não resolvem: a cápsula se perde no estômago. A gota vai embaixo da língua e chega até 13x mais.'",
+     "120–160s: 'Imagina voltar a vestir a calça parada no armário, tirar foto sem caçar ângulo… e querer de novo.'",
+     "160–190s: 'Não compra no Mercado Livre nem na Shopee: tá cheio de falsificado. Fala comigo e você só paga na entrega.'"
+    ],
+    "cta": "Toca no botão e me chama no WhatsApp: eu te digo qual kit faz sentido pro teu caso."
+   },
+   "cuidado": "Nada de 'Dr.', médico ou rosto de médico gerado por IA, nem a aposta 'fecho meu consultório'. Não prometer emagrecimento nem prazo."
+  }
+ ],
+ "mudou": [
+  "Femme+ (Camila Calegari) subiu 18 anúncios em 15–16/11, boa parte curtos de 'dica' (0:42 a 1:55, \"Uma dica SUPER valiosa pra vocês\"), e relançou \"Olhem essa dica e essa história SENSACIONAL\" (2:54) com 5 versões.",
+  "Libidiflora abriu mais uma página (Dr. Helena Barbosa) com 5 VSLs novas em 15–16/11 (4:35 e 2:48), todas com \"PAGUE SOMENTE NA ENTREGA\" como primeira linha da copy.",
+  "Candfemm (Especialista Monica) subiu 5 vídeos em 15/11, de 0:24 a 4:32, com a copy abrindo numa lista de sintomas em caixa alta: \"CANDIDÍASE • MAU CHEIRO • COCEIRA • FALTA DE LIBIDO • CORRIMENTO\". (Comparado com a leitura de 14/11: no dia 15 não houve rodada.)"
+ ],
+ "arquivo": [
+  {
+   "data": "16/11/2026",
+   "href": "reports/2026-11-16.html",
+   "resumo": "segredo aos 56, casal abre, não é idade"
+  },
+  {
+   "data": "14/11/2026",
+   "href": "reports/2026-11-14.html",
+   "resumo": "absorvente no lixo, não precisa ser assim, esqueça lubrificante"
+  },
+  {
+   "data": "13/11/2026",
+   "href": "reports/2026-11-13.html",
+   "resumo": "pílula azul, oferta relâmpago, chá fraco"
+  },
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 16/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente. Sem leitura em 15/11 (computador desligado): o \"mudou\" compara com 14/11; novos = anúncios iniciados em 15–16/11."
+}
