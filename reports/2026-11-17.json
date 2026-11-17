@@ -1,0 +1,173 @@
+{
+ "versao": 2,
+ "data": "17/11/2026",
+ "gerado_em": "17/11/2026 10:06",
+ "manchete": "Grave hoje: a filha contando que as gotinhas salvaram o casamento da mãe, com o apagão hormonal explicado numa frase só.",
+ "padrao": "2 dos 3 escalados põem o casamento em jogo nos primeiros 10 segundos (um dá prazo pra acabar, o outro foi \"salvo\" pelas gotas) e explicam o problema como o corpo desligando: \"o cérebro desconecta dos ovários\", \"não é fase nem estresse\". O terceiro mostra que 26 segundos de humor sobre o sintoma seguram 5 meses no ar.",
+ "modelar": [
+  {
+   "titulo": "Gotinhas que salvaram o casamento da mãe",
+   "marca": "Composto Meno",
+   "pagina": "Always FIT - Saúde, Longevidade e Autoestima",
+   "link": "https://www.facebook.com/ads/library/?id=2084177808857184",
+   "formato": "UGC talking head com conta-gotas na câmera · 1:45",
+   "numeros": "4 versões · no ar desde 24/09 (54 dias) · a mesma copy roda em 42 anúncios, 2 páginas, desde 10/08",
+   "por_que": "Abre com a gota caindo e um casamento salvo, contado pela filha (prova de fora, não da vendedora), e explica o desligamento do corpo numa frase que qualquer uma entende. 54 dias no ar e a copy espalhada em 42 anúncios.",
+   "novo": true,
+   "original": {
+    "hook": "Vinte gotinhas disso daqui por dia foi a salvação do casamento da minha mãe.",
+    "estrutura": [
+     "0–3s: outra mulher pinga o conta-gotas na câmera, tarja \"Cuidado com ele… isso aqui está salvando casamentos\"",
+     "3–7s: corta pra filha falando pra câmera: \"Vinte gotinhas disso daqui por dia foi a salvação do casamento da minha mãe\"",
+     "7–25s: mecanismo: \"parou de menstruar, o cérebro desconecta dos ovários e diz: você não presta mais pra isso\" → calorão, irritação, \"seca por dentro e por fora\"",
+     "25–46s: lista rápida: metabolismo lento, pele flácida, queda de cabelo, \"aquela pochete\"",
+     "1:24–1:45: frasco na mão, \"em gotas, absorção rápida\" + escassez: \"maior lançamento, pode sair do ar a qualquer momento\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "filha da Sônia (cliente)",
+    "hook": "Essas gotinhas embaixo da língua devolveram a minha mãe pro meu pai.",
+    "roteiro": [
+     "0–3s: close da gota caindo embaixo da língua da Sônia, tarja: \"Cuidado: isso aqui tá salvando casamento\"",
+     "3–8s: filha pra câmera: \"Essas gotinhas devolveram a minha mãe pro meu pai. Sério.\"",
+     "8–25s: \"Quando a menstruação para, é um apagão: os 3 hormônios caem juntos, tipo tomada puxada. Calorão, irritação, seca por dentro e por fora, e ela achando que era a idade.\"",
+     "25–40s: \"Gota embaixo da língua absorve 13x mais que cápsula. Ela falou com a Amanda no WhatsApp e só pagou quando chegou.\"",
+     "40–50s: \"Só não compra no Mercado Livre nem na Shopee: tá cheio de falsificado.\""
+    ],
+    "cta": "Toca em enviar mensagem, fala com a Amanda e paga só na entrega."
+   },
+   "cuidado": "a mulher de branco com conta-gotas com cara de profissional de saúde; escassez falsa (\"pode sair do ar a qualquer momento\") se não for verdade; nada de prometer que salva casamento."
+  },
+  {
+   "titulo": "Seu casamento tem prazo",
+   "marca": "Libidiflora",
+   "pagina": "Medical Clinic",
+   "link": "https://www.facebook.com/ads/library/?id=986682811139863",
+   "formato": "VSL talking head · 2:48",
+   "numeros": "29 versões (eram 15 em 14/11) · no ar desde 16/10 (32 dias) · clonado numa página nova em 16/11 (Especialista Roberto Alves)",
+   "por_que": "Descarta o gel no primeiro segundo e, antes de dizer quem fala, avisa que o casamento acaba se ela não fizer nada. Quase dobrou de versões em 3 dias e ganhou cópia numa página nova.",
+   "repetido": "voltou: +14 versões",
+   "original": {
+    "hook": "Esqueça lubrificantes e hormônios.",
+    "estrutura": [
+     "0–3s: despeja gel na mão e descarta: \"Esqueça lubrificantes e hormônios\"",
+     "3–10s: útero 3D na mão + promessa de voltar a se molhar",
+     "10–19s: \"o seu ressecamento não é fase nem estresse, é o aviso silencioso de que o seu casamento vai acabar no divórcio\"",
+     "19–46s: \"Eu sou a Patrícia…\" + a rotina dela: ardência, desculpa de dor de cabeça, \"acha que seu corpo deu defeito\"",
+     "2:41–2:48: pague na entrega + \"Não deixe o seu casamento acabar por orgulho. Chama agora.\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (especialista, roupa normal)",
+    "hook": "Joga esse gel fora. O teu problema não é secura, é apagão hormonal, e o teu casamento sente antes de você.",
+    "roteiro": [
+     "0–3s: Amanda pega o tubo de gel e joga no lixo: \"Joga esse gel fora. Ele molha 10 minutos e o problema continua.\"",
+     "3–10s: \"Essa secura não é idade nem estresse. É apagão hormonal: os 3 hormônios caindo juntos, tomada puxada.\"",
+     "10–20s: \"E enquanto você inventa dor de cabeça pra fugir dele, ele já percebeu. O teu casamento sente antes de você.\"",
+     "20–35s: gota embaixo da língua na câmera: \"Por isso é gota sublingual: absorve 13x mais que cápsula.\"",
+     "35–45s: \"Só compra comigo: no Mercado Livre e na Shopee tá cheio de falsificado. E você paga só quando chegar.\""
+    ],
+    "cta": "Me chama no WhatsApp, fala \"apagão\" e eu vejo o teu caso. Paga na entrega."
+   },
+   "cuidado": "jaleco e nome de \"especialista\" com cara de médica; prazo (\"igual aos 18 anos em 2 semanas\", \"divórcio em 6 meses\"); \"sem médico\"; anatomia 3D explícita."
+  },
+  {
+   "titulo": "Capivara querendo comer o mundo",
+   "marca": "Fito Femme",
+   "pagina": "Loja FitoEssência",
+   "link": "https://www.facebook.com/ads/library/?id=986219814126285",
+   "formato": "UGC curto, apresentador com o frasco · 0:26",
+   "numeros": "4 versões · no ar desde 07/06 (163 dias) · outro anúncio com a mesma copy (desde 06/06) também em 4 versões",
+   "por_que": "26 segundos, uma piada sobre o sintoma que toda mulher reconhece e o frasco na câmera aos 13s. Cinco meses no ar com 4 versões: curto que se paga há tempo.",
+   "novo": true,
+   "original": {
+    "hook": "Está chegando perto da menopausa? Tem dia que está triste, tem dia que está feliz, tem dia que está sem fome, outro dia parecendo uma capivara, querendo comer um mundo inteiro.",
+    "estrutura": [
+     "0–3s: homem no quintal com o frasco: \"Tá chegando perto da menopausa?\"",
+     "3–9s: cortes de 1s no ritmo da lista (mulher triste, prato de comida): triste, feliz, sem fome, \"capivara querendo comer o mundo inteiro\"",
+     "9–23s: frasco na câmera: \"esse aqui é o Fito Femme\", pra quem está passando ou já passou pela menopausa",
+     "23–26s: \"Quer garantir o seu? Clica aqui em saiba mais\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla (coroa radiante)",
+    "hook": "Tem dia que você chora em comercial de margarina e no outro quer comer a geladeira inteira?",
+    "roteiro": [
+     "0–3s: Carla com a porta da geladeira aberta: \"Tem dia que você chora em comercial de margarina e no outro quer comer a geladeira inteira?\"",
+     "3–8s: cortes de 1s: choro no sofá, colher no pote de doce, marido perguntando \"tá tudo bem?\"",
+     "8–18s: \"Não é loucura, é apagão hormonal: os 3 hormônios caindo juntos. Eu resolvi com gota embaixo da língua.\" (pinga na câmera)",
+     "18–25s: \"Fala com a Amanda no WhatsApp e paga só na entrega. E foge do Mercado Livre, que lá é falsificado.\""
+    ],
+    "cta": "Toca em enviar mensagem e fala com a Amanda."
+   },
+   "cuidado": "não chamar de remédio pra TPM nem dizer que \"testado\" sem prova; nada de \"resolve a menopausa\"."
+  }
+ ],
+ "mudou": [
+  "Libidiflora: o VSL \"Esqueça lubrificantes\" foi de 15 (14/11) pra 29 versões e ganhou cópia numa página com nome de homem (Especialista Roberto Alves, 16/11); hoje abriu mais uma página, Dr. Fernanda Matos, com o \"Volte a se sentir desejada\" de 3:29.",
+  "Femme+ estreou hoje um VSL de 7:18 com a copy abrindo em \"PAGUE SOMENTE NA ENTREGA\" + botão WhatsApp, e subiu em 16/11 três VSLs de \"secura vaginal\" (6:15–6:44) com a copy escrita em letras cirílicas parecidas, truque pra passar na revisão: não copiar."
+ ],
+ "arquivo": [
+  {
+   "data": "17/11/2026",
+   "href": "reports/2026-11-17.html",
+   "resumo": "gotinhas salvaram casamento, casamento tem prazo, capivara"
+  },
+  {
+   "data": "16/11/2026",
+   "href": "reports/2026-11-16.html",
+   "resumo": "segredo aos 56, casal abre, não é idade"
+  },
+  {
+   "data": "14/11/2026",
+   "href": "reports/2026-11-14.html",
+   "resumo": "absorvente no lixo, não precisa ser assim, esqueça lubrificante"
+  },
+  {
+   "data": "13/11/2026",
+   "href": "reports/2026-11-13.html",
+   "resumo": "pílula azul, oferta relâmpago, chá fraco"
+  },
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 17/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente."
+}
