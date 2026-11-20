@@ -1,0 +1,176 @@
+{
+ "versao": 2,
+ "data": "20/11/2026",
+ "gerado_em": "20/11/2026 18:33",
+ "manchete": "Grave hoje: o \"isso ou LibidLizze?\": 3 vergonhas da cama respondidas seco nos primeiros 15 segundos, antes de explicar o apagão hormonal.",
+ "padrao": "2 dos 3 abrem em pergunta e resposta seca: derrubam o que ela já tenta (ventilador, banho de assento, sabonete) e colocam o produto como saída antes de qualquer explicação. Os 3 fecham em oferta direta com urgência: pagar na entrega, estoque acabando ou preço relâmpago.",
+ "modelar": [
+  {
+   "titulo": "Isso ou o produto?",
+   "marca": "Serenar",
+   "pagina": "Verbesen",
+   "link": "https://www.facebook.com/ads/library/?id=1606811420875686",
+   "formato": "Talking head com tela dividida · 1:36",
+   "numeros": "2 versões · no ar desde 25/08 (87 dias) · 10 dos 13 anúncios da Verbesen rodam desde 25/08",
+   "por_que": "Abre com 3 perguntas de constrangimento respondidas seco (\"Serenar, sem dúvida\"), e só depois explica o mecanismo. Ritmo de jogo prende nos 15 primeiros segundos, e o criativo segura 87 dias no ar.",
+   "novo": true,
+   "original": {
+    "hook": "Passa a vergonha suando no jantar de família ou Serenar? Serenar, sem dúvida.",
+    "estrutura": [
+     "0–16s: 3 rodadas de \"isso ou Serenar?\" (suar no jantar, ventilador no máximo, arrancar a roupa) com resposta seca",
+     "16–50s: \"Realmente controla?\" → queda hormonal confunde o termostato do cérebro + cena de constrangimento no trabalho",
+     "50–78s: como as 2 cápsulas agem (ativos, animação de sistema nervoso)",
+     "78–96s: \"Como garantir?\" → botão, estoque com preço de fábrica, oferta relâmpago"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla (coroa radiante)",
+    "hook": "Fingir dor de cabeça pra fugir do teu marido de novo... ou LibidLizze? LibidLizze, sem dúvida.",
+    "roteiro": [
+     "0–12s: mais 2 rodadas seco: \"Lubrificante que arde mais do que ajuda ou LibidLizze?\" \"LibidLizze.\" \"Dormir de costas pra ele não encostar ou LibidLizze?\" \"LibidLizze mil vezes.\"",
+     "12–30s: \"Mas funciona mesmo?\" → apagão hormonal: depois dos 40 os 3 hormônios caem juntos, é tomada puxada: desejo, lubrificação e energia desligam ao mesmo tempo",
+     "30–45s: gota debaixo da língua cai direto no sangue: 13x mais absorção que cápsula que se perde no estômago",
+     "45–60s: aviso: tem falsificado no Mercado Livre e na Shopee; o original é só com a Amanda no WhatsApp"
+    ],
+    "cta": "Clica no botão e chama a Amanda no WhatsApp: você só paga quando o LibidLizze chegar na tua mão."
+   },
+   "cuidado": "jaleco/\"doutora\" de farmácia, \"controla muito rápido\", \"corta pela raiz\" e qualquer prazo de resultado."
+  },
+  {
+   "titulo": "Presta atenção nisso aqui",
+   "marca": "Candfemm",
+   "pagina": "Dra. Camila Collen",
+   "link": "https://www.facebook.com/ads/library/?id=1424367102392821",
+   "formato": "VSL corte de podcast · 5:12",
+   "numeros": "4 versões · no ar desde 08/10 (43 dias) · página nova de outubro, mesma oferta do Candfemm",
+   "por_que": "Hook lista 3 sintomas íntimos concretos em 9 segundos e emenda com \"mito\" derrubado em pergunta e resposta (banho de assento, sabonete neutro). Corte de podcast passa autoridade sem cara de anúncio e segura 43 dias.",
+   "novo": true,
+   "original": {
+    "hook": "Se seus lábios vaginais coçam, você sente um odor desagradável ao se sentar ou sua calcinha fica cheia de corrimento ao meio-dia, preste atenção nisso aqui.",
+    "estrutura": [
+     "0–9s: 3 sintomas íntimos com b-roll de mulher incomodada + tarja \"preste atenção nisso aqui\"",
+     "9–20s: mitos em pergunta e resposta: banho de assento? \"mito antigo\"; sabonete neutro? \"não resolve\"",
+     "20–60s: \"especialista\" no microfone de podcast explica pH com desenho",
+     "60–276s: mecanismo, ingredientes, prova",
+     "276–312s: frete grátis, estoque limitado, \"se ainda consegue comprar, ainda tem\", botão"
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Amanda (especialista do WhatsApp)",
+    "hook": "Se você sente ardência na hora H, precisa de lubrificante toda vez ou já inventou desculpa pra fugir do teu marido essa semana, presta atenção nisso aqui.",
+    "roteiro": [
+     "0–10s: Amanda no microfone (cenário de podcast), tarja \"presta atenção nisso aqui\"",
+     "10–25s: mitos seco: \"Lubrificante resolve? Não, só disfarça por dez minutos.\" \"Gel de hormônio? Mexe no que não precisa.\"",
+     "25–50s: o que acontece de verdade: apagão hormonal, os 3 hormônios caem juntos, tomada puxada",
+     "50–75s: gota sublingual, 13x mais que cápsula; aviso do falsificado no Mercado Livre/Shopee"
+    ],
+    "cta": "Clica no botão e fala comigo no WhatsApp: você paga só na entrega."
+   },
+   "cuidado": "\"Dra.\", médica ou paciente falsa, \"cure\", b-roll sexualizado e dublar podcast de outra pessoa."
+  },
+  {
+   "titulo": "Vinheta de 16 segundos",
+   "marca": "Dellas Vit",
+   "pagina": "Beatriz Manjericão",
+   "link": "https://www.facebook.com/ads/library/?id=1250746116739788",
+   "formato": "Vinheta curta de oferta · 0:16",
+   "numeros": "3 versões · no ar desde 16/09/2025 (430 dias) · apareceu na varredura \"menopausa pague na entrega\"",
+   "por_que": "Nome do produto + 1 promessa + \"pague somente na entrega\" em 11 segundos, depois cartela com 5 sintomas riscados. Zero história, e mesmo assim roda há 430 dias: prova de que a oferta curta com pagamento na entrega converte sozinha.",
+   "novo": true,
+   "original": {
+    "hook": "Fim da menopausa, Dellas Vit.",
+    "estrutura": [
+     "0–3s: apresentadora em estúdio de jornal + nome do produto na tarja",
+     "3–7s: \"o mais poderoso suplemento natural para aliviar sintomas\"",
+     "7–11s: \"Compre agora. Pague somente na entrega.\"",
+     "11–16s: frasco grande + lista de sintomas (ondas de calor, suor noturno, humor, peso) + \"pagamento somente na entrega\""
+    ]
+   },
+   "nossa_versao": {
+    "persona": "Carla com o frasco na mão",
+    "hook": "Apagão hormonal depois dos 40? Gota de LibidLizze debaixo da língua.",
+    "roteiro": [
+     "0–3s: Carla mostra o frasco, tarja \"LIBIDLIZZE\"",
+     "3–8s: \"Desejo, lubrificação e disposição: os 3 caíram juntos. A gota absorve 13x mais que cápsula.\"",
+     "8–12s: cartela com secura íntima, vontade zero, calorão e cansaço riscados",
+     "12–16s: \"Compra com a Amanda no WhatsApp. Paga só na entrega.\""
+    ],
+    "cta": "Chama a Amanda no WhatsApp e paga só quando chegar."
+   },
+   "cuidado": "cenário de telejornal ou apresentadora de TV (no original é avatar), \"fim da menopausa\" e \"o mais poderoso\"."
+  }
+ ],
+ "mudou": [
+  "Comparando com a última leitura (17/11): a Libidiflora trocou de VSL. O \"Esqueça lubrificantes\" (29 versões em 17/11) saiu da busca, que caiu de ~75 pra ~20 ativos, e o \"Volte a se sentir desejada\" (3:13 a 4:35) virou o carro-chefe na página Dr Patrícia Almeida: 8 subidas em 18–19/11, uma já com 6 versões, quase todas com \"pague somente na entrega\".",
+  "MenoCare (Helena Especialista) subiu 15 vídeos novos em 19–20/11 (1:16 a 2:59), todos com a mesma copy de 2 linhas \"PAGUE SOMENTE NA ENTREGA / Fale com uma especialista no WhatsApp\", que roda em estático desde 21/08. A copy curta validada virou legenda padrão de vídeo novo.",
+  "Femme+ (Camila Calegari) subiu 9 anúncios em 19–20/11 e pelo menos 4 vão pro Messenger (\"Enviar mensagem\") em vez do WhatsApp. A página do Dr Alexandre Castro ficou sem nenhum anúncio ativo (eram 21)."
+ ],
+ "arquivo": [
+  {
+   "data": "20/11/2026",
+   "href": "reports/2026-11-20.html",
+   "resumo": "isso ou o produto, presta atenção, vinheta 16s"
+  },
+  {
+   "data": "17/11/2026",
+   "href": "reports/2026-11-17.html",
+   "resumo": "gotinhas salvaram casamento, casamento tem prazo, capivara"
+  },
+  {
+   "data": "16/11/2026",
+   "href": "reports/2026-11-16.html",
+   "resumo": "segredo aos 56, casal abre, não é idade"
+  },
+  {
+   "data": "14/11/2026",
+   "href": "reports/2026-11-14.html",
+   "resumo": "absorvente no lixo, não precisa ser assim, esqueça lubrificante"
+  },
+  {
+   "data": "13/11/2026",
+   "href": "reports/2026-11-13.html",
+   "resumo": "pílula azul, oferta relâmpago, chá fraco"
+  },
+  {
+   "data": "12/11/2026",
+   "href": "reports/2026-11-12.html",
+   "resumo": "filho filma a mãe, suplemento de farmácia, que milagre é esse"
+  },
+  {
+   "data": "11/11/2026",
+   "href": "reports/2026-11-11.html",
+   "resumo": "produto na mão, lubrificante no lixo, tentou de tudo"
+  },
+  {
+   "data": "04/11/2026",
+   "href": "reports/2026-11-04.html",
+   "resumo": "amo meu marido, marido com vontade, truque da reposição"
+  },
+  {
+   "data": "03/11/2026",
+   "href": "reports/2026-11-03.html",
+   "resumo": "gotinha na câmera, esquece gel e hormônio, pergunta da seguidora"
+  },
+  {
+   "data": "02/11/2026",
+   "href": "reports/2026-11-02.html",
+   "resumo": "Femme+ +19 e entra no pague na entrega, Composto Meno ~490"
+  },
+  {
+   "data": "31/10/2026",
+   "href": "reports/2026-10-31.html",
+   "resumo": "MenoCare sobe 13 VSLs longas, Libidiflora cai pra ~43, novo player FloraBe"
+  },
+  {
+   "data": "30/10/2026",
+   "href": "reports/2026-10-30.html",
+   "resumo": "Libidiflora +24 num dia, Dr Alexandre ~73 ativos, novo player Radiancy"
+  },
+  {
+   "data": "29/10/2026",
+   "href": "reports/2026-10-29.html",
+   "resumo": "Femme+ 28 novos em 48h, Libidfem 37 ativos, MenoCare testa VSL de 10 min"
+  }
+ ],
+ "rodape": "Fonte: Biblioteca de Anúncios da Meta (Brasil, ativos), lida em 20/11/2026. \"Versões\" = \"N anúncios usam esse criativo\". Falas transcritas automaticamente. Rodada atrasada (disparou às 18h16 em vez de 9h50); \"mudou\" compara com a leitura de 17/11."
+}
